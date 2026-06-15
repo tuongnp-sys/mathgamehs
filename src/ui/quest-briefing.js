@@ -15,13 +15,17 @@ import { unifiedLangButtonHtml } from './lang-button.js';
 export function renderQuestBriefing(root, { questions, t, contentLang, onToggleLang, onStart }) {
   const langBtn = onToggleLang ? unifiedLangButtonHtml(contentLang, 'btn-brief-lang') : '';
 
-  const regions = REGIONS.map(
-    (r) => `
-    <div class="brief-region brief-region-${r.id}">
+  const regions = REGIONS.map((r) => {
+    const lockCount = r.endOrder - r.startOrder + 1;
+    return `
+    <div class="brief-region brief-region-${r.id} world-zone world-zone-${r.id}">
       ${regionSceneBlock(r.id, t, 'banner')}
-      <span class="muted">${r.endOrder - r.startOrder + 1} ${t('questNodes')}</span>
-    </div>`
-  ).join('');
+      <span class="world-zone-lock-badge" title="${t('worldHubBadgeHint')}">
+        <span class="zone-lock-count">${lockCount}</span>
+        <span class="zone-lock-icon" aria-hidden="true">🔒</span>
+      </span>
+    </div>`;
+  }).join('');
 
   const mapPreview = renderQuestMapHtml({
     questions,

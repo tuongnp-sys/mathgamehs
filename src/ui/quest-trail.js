@@ -56,14 +56,16 @@ export function renderQuestTrailHtml({
       if (flagged) cls += ' flagged';
       if (!visited) cls += ' fog';
 
-      const label = visited ? String(num) : '?';
+      const label = visited
+        ? `<span class="trail-node-num">${num}</span>`
+        : `<span class="trail-node-lock" aria-hidden="true">🔒</span>`;
       const title = visited
         ? `${t('question')} ${num}`
         : `${t('trailFogHint')} · ${topic}`;
 
       nodes.push(
-        `<button type="button" class="${cls}" data-qindex="${i}" title="${title}">
-          <span class="trail-node-num">${label}</span>
+        `<button type="button" class="${cls}" data-qindex="${i}" title="${title}" aria-label="${title}">
+          ${label}
         </button>`
       );
       if (i < region.endOrder - 1) {

@@ -207,6 +207,10 @@
   margin: 0;
 }
 
+.brief-region .world-zone-lock-badge {
+  margin: 0.35rem 0.5rem 0.45rem;
+}
+
 .brief-region .muted {
   display: block;
   padding: 0.35rem 0.5rem;
@@ -832,6 +836,11 @@ body.portal-mode .world-zone-led-grid {
   opacity: 0.7;
 }
 
+.trail-node-lock {
+  font-size: 0.48rem;
+  line-height: 1;
+}
+
 .trail-node.current {
   border-color: var(--accent);
   background: var(--accent-dim);
@@ -974,6 +983,10 @@ body.portal-mode .trail-node {
   width: 1.1rem;
   height: 1.1rem;
   font-size: 0.5rem;
+}
+
+body.portal-mode .trail-node-lock {
+  font-size: 0.42rem;
 }
 
 body.portal-mode .trail-seg-label {
