@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "name": "QĐ 764 THPT Math",
+  "slots": [
+    { "slotCode": "P1_01", "order": 1, "part": 1, "grade": 11, "topicCode": "L11_TRIG", "difficulty": "NB" },
+    { "slotCode": "P1_02", "order": 2, "part": 1, "grade": 11, "topicCode": "L11_SEQ", "difficulty": "TH" },
+    { "slotCode": "P1_03", "order": 3, "part": 1, "grade": 11, "topicCode": "L11_SOLID", "difficulty": "TH" },
+    { "slotCode": "P1_04", "order": 4, "part": 1, "grade": 11, "topicCode": "L11_SOLID", "difficulty": "TH" },
+    { "slotCode": "P1_05", "order": 5, "part": 1, "grade": 11, "topicCode": "L11_EXPLOG", "difficulty": "NB" },
+    { "slotCode": "P1_06", "order": 6, "part": 1, "grade": 11, "topicCode": "L11_STATS", "difficulty": "NB" },
+    { "slotCode": "P1_07", "order": 7, "part": 1, "grade": 12, "topicCode": "L12_CALC", "difficulty": "TH" },
+    { "slotCode": "P1_08", "order": 8, "part": 1, "grade": 12, "topicCode": "L12_INTEGRAL", "difficulty": "TH" },
+    { "slotCode": "P1_09", "order": 9, "part": 1, "grade": 12, "topicCode": "L12_INTEGRAL", "difficulty": "TH" },
+    { "slotCode": "P1_10", "order": 10, "part": 1, "grade": 12, "topicCode": "L12_OXYZ", "difficulty": "TH" },
+    { "slotCode": "P1_11", "order": 11, "part": 1, "grade": 12, "topicCode": "L12_OXYZ", "difficulty": "TH" },
+    { "slotCode": "P1_12", "order": 12, "part": 1, "grade": 12, "topicCode": "L12_OXYZ", "difficulty": "VD" },
+    { "slotCode": "P2_01", "order": 13, "part": 2, "grade": 12, "topicCode": "L12_CALC", "difficulty": "VD" },
+    { "slotCode": "P2_02", "order": 14, "part": 2, "grade": 12, "topicCode": "L12_INTEGRAL", "difficulty": "VD" },
+    { "slotCode": "P2_03", "order": 15, "part": 2, "grade": 12, "topicCode": "L12_OXYZ", "difficulty": "VD" },
+    { "slotCode": "P2_04", "order": 16, "part": 2, "grade": 12, "topicCode": "L12_PROB_COND", "difficulty": "VD" },
+    { "slotCode": "P3_01", "order": 17, "part": 3, "grade": 10, "topicCode": "L10_LINEAR_PROG", "difficulty": "VD" },
+    { "slotCode": "P3_02", "order": 18, "part": 3, "grade": 10, "topicCode": "L10_COMBINATORICS", "difficulty": "VD" },
+    { "slotCode": "P3_03", "order": 19, "part": 3, "grade": 11, "topicCode": "L11_PROB", "difficulty": "VD" },
+    { "slotCode": "P3_04", "order": 20, "part": 3, "grade": 11, "topicCode": "L11_SOLID", "difficulty": "VD" },
+    { "slotCode": "P3_05", "order": 21, "part": 3, "grade": 12, "topicCode": "L12_CALC", "difficulty": "VD" },
+    { "slotCode": "P3_06", "order": 22, "part": 3, "grade": 12, "topicCode": "L12_INTEGRAL", "difficulty": "VD" }
+  ]
+}

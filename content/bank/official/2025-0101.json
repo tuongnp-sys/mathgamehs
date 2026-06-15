@@ -1,0 +1,1005 @@
+{
+  "id": "official-2025-0101",
+  "year": 2025,
+  "examCode": "0101",
+  "title": {
+    "vi": "Đề thi chính thức Toán THPT 2025 — Mã đề 0101",
+    "en": "Official THPT Mathematics Exam 2025 — Code 0101"
+  },
+  "questionIds": [
+    "off25-0101-q01",
+    "off25-0101-q02",
+    "off25-0101-q03",
+    "off25-0101-q04",
+    "off25-0101-q05",
+    "off25-0101-q06",
+    "off25-0101-q07",
+    "off25-0101-q08",
+    "off25-0101-q09",
+    "off25-0101-q10",
+    "off25-0101-q11",
+    "off25-0101-q12",
+    "off25-0101-q13",
+    "off25-0101-q14",
+    "off25-0101-q15",
+    "off25-0101-q16",
+    "off25-0101-q17",
+    "off25-0101-q18",
+    "off25-0101-q19",
+    "off25-0101-q20",
+    "off25-0101-q21",
+    "off25-0101-q22"
+  ],
+  "questions": [
+    {
+      "id": "off25-0101-q01",
+      "part": 1,
+      "order": 1,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Cho hình lăng trụ $ABC.A'B'C'$. Phát biểu nào sau đây là đúng?",
+        "en": "Given triangular prism $ABC.A'B'C'$. Which statement is correct?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC'}$",
+            "en": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC'}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{C'B'}$",
+            "en": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{C'B'}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$",
+            "en": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{A'A}$",
+            "en": "$\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{A'A}$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "Quy tắc hình hộp: $\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$.",
+        "en": "Vector addition in the prism gives $\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$."
+      }
+    },
+    {
+      "id": "off25-0101-q02",
+      "part": 1,
+      "order": 2,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $AB$ song song với mặt phẳng nào sau đây?",
+        "en": "In parallelepiped $ABCD.A'B'C'D'$, line $AB$ is parallel to which plane?"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$(CC'A'A)$",
+            "en": "$(CC'A'A)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$(BB'C'C)$",
+            "en": "$(BB'C'C)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$(A'B'C'D')$",
+            "en": "$(A'B'C'D')$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$(AA'D'D)$",
+            "en": "$(AA'D'D)$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "$AB \\parallel A'B'$ và $A'B'$ nằm trên mặt phẳng $(A'B'C'D')$.",
+        "en": "$AB \\parallel A'B'$ lies in plane $(A'B'C'D')$."
+      }
+    },
+    {
+      "id": "off25-0101-q03",
+      "part": 1,
+      "order": 3,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Mẫu thời lượng gọi điện (giây) có tần số $11,10,6,8,4,1$ trên các nhóm $[0;40)$, $[40;80)$, $[80;120)$, $[120;160)$, $[160;200)$, $[200;240)$. Tứ phân vị thứ ba $Q_3$ bằng",
+        "en": "Grouped call durations (seconds) have frequencies $11,10,6,8,4,1$ on $[0,40)$, $[40,80)$, $[80,120)$, $[120,160)$, $[160,200)$, $[200,240)$. The third quartile $Q_3$ equals"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$145$",
+            "en": "$145$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$140$",
+            "en": "$140$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$135$",
+            "en": "$135$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$130$",
+            "en": "$130$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "$Q_3$ thuộc nhóm $[120;160)$ và nội suy cho $135$ giây.",
+        "en": "$Q_3$ lies in $[120,160)$; interpolation gives $135$ seconds."
+      }
+    },
+    {
+      "id": "off25-0101-q04",
+      "part": 1,
+      "order": 4,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Trong $Oxyz$, đường thẳng $(d): \\dfrac{x-3}{4}=\\dfrac{y+2}{-5}=\\dfrac{z-1}{2}$. Vectơ chỉ phương của $(d)$ là",
+        "en": "In $Oxyz$, line $(d): \\dfrac{x-3}{4}=\\dfrac{y+2}{-5}=\\dfrac{z-1}{2}$. A direction vector of $(d)$ is"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$\\vec{v_3}=(4;5;2)$",
+            "en": "$\\vec{v_3}=(4,5,2)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$\\vec{v_1}=(3;-2;1)$",
+            "en": "$\\vec{v_1}=(3,-2,1)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$\\vec{v_4}=(3;2;1)$",
+            "en": "$\\vec{v_4}=(3,2,1)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$\\vec{v_2}=(4;-5;2)$",
+            "en": "$\\vec{v_2}=(4,-5,2)$"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "vi": "Hệ số dưới mẫu số cho vectơ chỉ phương $(4;-5;2)$.",
+        "en": "Denominator coefficients give direction vector $(4,-5,2)$."
+      }
+    },
+    {
+      "id": "off25-0101-q05",
+      "part": 1,
+      "order": 5,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Họ nguyên hàm của $f(x)=x^2$ là",
+        "en": "The family of antiderivatives of $f(x)=x^2$ is"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$\\dfrac{1}{3}x^3+C$",
+            "en": "$\\dfrac{1}{3}x^3+C$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$2x^3+C$",
+            "en": "$2x^3+C$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$3x^3+C$",
+            "en": "$3x^3+C$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$\\dfrac{1}{2}x^3+C$",
+            "en": "$\\dfrac{1}{2}x^3+C$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "$\\int x^2\\,dx=\\dfrac{x^3}{3}+C$.",
+        "en": "$\\int x^2\\,dx=\\dfrac{x^3}{3}+C$."
+      }
+    },
+    {
+      "id": "off25-0101-q06",
+      "part": 1,
+      "order": 6,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
+      "stem": {
+        "vi": "Cho cấp số cộng $(u_n)$ có $u_1=4$, $d=-3$. Giá trị $u_5$ bằng",
+        "en": "Arithmetic progression $(u_n)$ has $u_1=4$, $d=-3$. Find $u_5$."
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$16$",
+            "en": "$16$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$19$",
+            "en": "$19$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$-8$",
+            "en": "$-8$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$-11$",
+            "en": "$-11$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "$u_5=u_1+4d=4-12=-8$.",
+        "en": "$u_5=u_1+4d=4-12=-8$."
+      }
+    },
+    {
+      "id": "off25-0101-q07",
+      "part": 1,
+      "order": 7,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Tập nghiệm của phương trình $\\sin x=0$ là",
+        "en": "The solution set of $\\sin x=0$ is"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$S=\\left\\{\\dfrac{\\pi}{2}+k\\pi\\mid k\\in\\mathbb{Z}\\right\\}$",
+            "en": "$S=\\left\\{\\dfrac{\\pi}{2}+k\\pi\\mid k\\in\\mathbb{Z}\\right\\}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$S=\\{k2\\pi\\mid k\\in\\mathbb{Z}\\}$",
+            "en": "$S=\\{k2\\pi\\mid k\\in\\mathbb{Z}\\}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$S=\\left\\{\\dfrac{\\pi}{2}+k2\\pi\\mid k\\in\\mathbb{Z}\\right\\}$",
+            "en": "$S=\\left\\{\\dfrac{\\pi}{2}+k2\\pi\\mid k\\in\\mathbb{Z}\\right\\}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$S=\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$",
+            "en": "$S=\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "vi": "$\\sin x=0 \\Leftrightarrow x=k\\pi$.",
+        "en": "$\\sin x=0 \\Leftrightarrow x=k\\pi$."
+      }
+    },
+    {
+      "id": "off25-0101-q08",
+      "part": 1,
+      "order": 8,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Trong mặt phẳng $Oxy$, diện tích $S$ của hình phẳng giới hạn bởi $y=2x-3$, trục hoành và $x=1, x=2$ được xác định bằng",
+        "en": "In the $Oxy$ plane, the area $S$ bounded by $y=2x-3$, the $x$-axis, and $x=1, x=2$ is given by"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$S=\\pi\\int_1^2|2x-3|\\,dx$",
+            "en": "$S=\\pi\\int_1^2|2x-3|\\,dx$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$S=\\int_1^2|2x-3|\\,dx$",
+            "en": "$S=\\int_1^2|2x-3|\\,dx$"
+          },
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$S=\\pi\\int_1^2(2x-3)^2\\,dx$",
+            "en": "$S=\\pi\\int_1^2(2x-3)^2\\,dx$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$S=\\left|\\int_1^2(2x-3)\\,dx\\right|$",
+            "en": "$S=\\left|\\int_1^2(2x-3)\\,dx\\right|$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "Diện tích bằng tích phân giá trị tuyệt đối của hàm trên đoạn.",
+        "en": "Area equals the integral of the absolute value on the interval."
+      }
+    },
+    {
+      "id": "off25-0101-q09",
+      "part": 1,
+      "order": 9,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Trong $Oxyz$, mặt phẳng qua $A(2;1;-4)$ và có vectơ pháp tuyến $\\vec{n}=(3;2;-1)$ có phương trình",
+        "en": "In $Oxyz$, the plane through $A(2,1,-4)$ with normal $\\vec{n}=(3,2,-1)$ has equation"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$3(x-2)+2(y-1)-(z+4)=0$",
+            "en": "$3(x-2)+2(y-1)-(z+4)=0$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$2(x+3)+(y+2)-4(z-1)=0$",
+            "en": "$2(x+3)+(y+2)-4(z-1)=0$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$3(x+2)+2(y+1)-(z-4)=0$",
+            "en": "$3(x+2)+2(y+1)-(z-4)=0$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$2(x-3)+(y-2)-4(z+1)=0$",
+            "en": "$2(x-3)+(y-2)-4(z+1)=0$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "Phương trình điểm–pháp tuyến qua $A$.",
+        "en": "Point–normal form through $A$."
+      }
+    },
+    {
+      "id": "off25-0101-q10",
+      "part": 1,
+      "order": 10,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Nghiệm của $\\log_3(2x-1)=2$ là",
+        "en": "The solution of $\\log_3(2x-1)=2$ is"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$x=\\dfrac{7}{2}$",
+            "en": "$x=\\dfrac{7}{2}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$x=\\dfrac{5}{2}$",
+            "en": "$x=\\dfrac{5}{2}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$x=5$",
+            "en": "$x=5$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$x=4$",
+            "en": "$x=4$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "$2x-1=9 \\Rightarrow x=5$.",
+        "en": "$2x-1=9 \\Rightarrow x=5$."
+      }
+    },
+    {
+      "id": "off25-0101-q11",
+      "part": 1,
+      "order": 11,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Hàm số $y=\\dfrac{ax+b}{cx+d}$ có tiệm cận ngang $y=2$ và tiệm cận đứng $x=-1$. Phương trình tiệm cận đứng là",
+        "en": "Rational function $y=\\dfrac{ax+b}{cx+d}$ has horizontal asymptote $y=2$ and vertical asymptote $x=-1$. The vertical asymptote is"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$y=2$",
+            "en": "$y=2$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$x=-1$",
+            "en": "$x=-1$"
+          },
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$y=-1$",
+            "en": "$y=-1$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$x=2$",
+            "en": "$x=2$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "vi": "Tiệm cận đứng là $x=-1$.",
+        "en": "Vertical asymptote is $x=-1$."
+      }
+    },
+    {
+      "id": "off25-0101-q12",
+      "part": 1,
+      "order": 12,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Cho chóp $S.ABC$ có $SA\\perp(ABC)$, tam giác $ABC$ vuông tại $A$, $SA=3$, $AB=4$, $AC=5$. Thể tích khối chóp $S.ABC$ bằng",
+        "en": "Pyramid $S.ABC$ has $SA\\perp(ABC)$, right triangle $ABC$ at $A$, $SA=3$, $AB=4$, $AC=5$. Its volume equals"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "vi": "$30$",
+            "en": "$30$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "vi": "$20$",
+            "en": "$20$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "vi": "$60$",
+            "en": "$60$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "vi": "$10$",
+            "en": "$10$"
+          },
+          "correct": true
+        }
+      ],
+      "explanation": {
+        "vi": "$V=\\dfrac{1}{3}\\cdot SA\\cdot S_{ABC}=\\dfrac{1}{3}\\cdot3\\cdot10=10$.",
+        "en": "$V=\\dfrac{1}{3}\\cdot SA\\cdot S_{ABC}=\\dfrac{1}{3}\\cdot3\\cdot10=10$."
+      }
+    },
+    {
+      "id": "off25-0101-q13",
+      "part": 2,
+      "order": 13,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
+      "stem": {
+        "vi": "Cho hàm số $f(x)=x^3-12x-8$.",
+        "en": "Given $f(x)=x^3-12x-8$."
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "vi": "$f'(x)=3x^2-12$.",
+            "en": "$f'(x)=3x^2-12$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Đạo hàm đúng.",
+            "en": "Correct derivative."
+          }
+        },
+        {
+          "label": "b",
+          "statement": {
+            "vi": "$f'(x)=0$ có tập nghiệm $S=\\{2\\}$.",
+            "en": "$f'(x)=0$ has solution set $S=\\{2\\}$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Nghiệm là $\\{\\pm2\\}$.",
+            "en": "Solutions are $\\{\\pm2\\}$."
+          }
+        },
+        {
+          "label": "c",
+          "statement": {
+            "vi": "$f(2)=24$.",
+            "en": "$f(2)=24$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "$f(2)=-24$.",
+            "en": "$f(2)=-24$."
+          }
+        },
+        {
+          "label": "d",
+          "statement": {
+            "vi": "Giá trị lớn nhất của $f$ trên $[-3;3]$ bằng $24$.",
+            "en": "The maximum of $f$ on $[-3,3]$ equals $24$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Giá trị lớn nhất là $8$ tại $x=-2$.",
+            "en": "Maximum is $8$ at $x=-2$."
+          }
+        }
+      ]
+    },
+    {
+      "id": "off25-0101-q14",
+      "part": 2,
+      "order": 14,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
+      "stem": {
+        "vi": "Nồng độ thuốc tồn dư $y(t)$ (mg/l) thỏa $y'(t)=k\\cdot y(t)$, $y(6)=2$, $y(12)=1$, và $y(t)=e^{g(t)}$.",
+        "en": "Residual drug concentration $y(t)$ (mg/L) satisfies $y'(t)=k\\cdot y(t)$, $y(6)=2$, $y(12)=1$, with $y(t)=e^{g(t)}$."
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "vi": "$g(t)=kt+C$ ($t\\ge0$).",
+            "en": "$g(t)=kt+C$ for $t\\ge0$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "$\\ln y = kt+C$.",
+            "en": "$\\ln y = kt+C$."
+          }
+        },
+        {
+          "label": "b",
+          "statement": {
+            "vi": "$k=-\\dfrac{\\ln2}{6}$.",
+            "en": "$k=-\\dfrac{\\ln2}{6}$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Sai dấu/hằng số theo điều kiện đo.",
+            "en": "Sign/constant inconsistent with measurements."
+          }
+        },
+        {
+          "label": "c",
+          "statement": {
+            "vi": "$C=2\\ln2$.",
+            "en": "$C=2\\ln2$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Từ $y(6)=2$.",
+            "en": "From $y(6)=2$."
+          }
+        },
+        {
+          "label": "d",
+          "statement": {
+            "vi": "Nồng độ tại $t=25$ ngày lớn hơn $0{,}25$ mg/l.",
+            "en": "Concentration at $t=25$ days exceeds $0.25$ mg/L."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Giá trị nhỏ hơn $0{,}25$.",
+            "en": "Value is below $0.25$."
+          }
+        }
+      ]
+    },
+    {
+      "id": "off25-0101-q15",
+      "part": 2,
+      "order": 15,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
+      "stem": {
+        "vi": "Vật chuyển động thẳng từ $A(5;5;0)$ với $v(t)=\\beta t+300$ m/s, sau $2$ s đi $604$ m. Vectơ đơn vị $\\vec{u}$ cùng hướng $\\overrightarrow{AB}$ tạo góc $60^\\circ,60^\\circ,45^\\circ$ với $\\vec{i},\\vec{j},\\vec{k}$.",
+        "en": "A particle starts at $A(5,5,0)$ with speed $v(t)=\\beta t+300$ m/s and travels $604$ m in $2$ s. Unit vector $\\vec{u}$ along $\\overrightarrow{AB}$ makes angles $60^\\circ,60^\\circ,45^\\circ$ with $\\vec{i},\\vec{j},\\vec{k}$."
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "vi": "$a=\\cos60^\\circ$.",
+            "en": "$a=\\cos60^\\circ$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Thành phần $a$ của vectơ đơn vị.",
+            "en": "The $a$-component of the unit vector."
+          }
+        },
+        {
+          "label": "b",
+          "statement": {
+            "vi": "Đường thẳng $AB$: $\\dfrac{x-5}{1}=\\dfrac{y-5}{1}=\\dfrac{z}{2}$.",
+            "en": "Line $AB$: $\\dfrac{x-5}{1}=\\dfrac{y-5}{1}=\\dfrac{z}{2}$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Hướng không khớp dữ kiện góc.",
+            "en": "Direction inconsistent with angle data."
+          }
+        },
+        {
+          "label": "c",
+          "statement": {
+            "vi": "$\\beta=2$.",
+            "en": "$\\beta=2$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Từ quãng đường $604$ m sau $2$ s.",
+            "en": "From distance $604$ m after $2$ s."
+          }
+        },
+        {
+          "label": "d",
+          "statement": {
+            "vi": "Sau $5$ s thì $x_B>768$.",
+            "en": "After $5$ s, $x_B>768$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "$x_B$ không vượt $768$.",
+            "en": "$x_B$ does not exceed $768$."
+          }
+        }
+      ]
+    },
+    {
+      "id": "off25-0101-q16",
+      "part": 2,
+      "order": 16,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
+      "stem": {
+        "vi": "Phần mềm đánh dấu $15\\%$ tin nhắn; trong tin bị đánh dấu có $10\\%$ không phải quảng cáo; trong tin không bị đánh dấu có $5\\%$ là quảng cáo.",
+        "en": "Software flags $15\\%$ of messages; among flagged messages $10\\%$ are not ads; among unflagged messages $5\\%$ are ads."
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "vi": "Xác suất tin không bị đánh dấu bằng $0{,}85$.",
+            "en": "Probability of an unflagged message is $0.85$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "$1-0{,}15=0{,}85$.",
+            "en": "$1-0.15=0.85$."
+          }
+        },
+        {
+          "label": "b",
+          "statement": {
+            "vi": "Xác suất không phải quảng cáo, biết không bị đánh dấu, bằng $0{,}95$.",
+            "en": "Given unflagged, probability of non-ad equals $0.95$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Theo dữ kiện xác suất có điều kiện.",
+            "en": "By conditional probability."
+          }
+        },
+        {
+          "label": "c",
+          "statement": {
+            "vi": "Xác suất tin không phải quảng cáo bằng $0{,}85$.",
+            "en": "Probability of a non-ad message equals $0.85$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "vi": "Giá trị thực khác $0{,}85$.",
+            "en": "Actual value differs from $0.85$."
+          }
+        },
+        {
+          "label": "d",
+          "statement": {
+            "vi": "Xác suất không bị đánh dấu, biết không phải quảng cáo, lớn hơn $0{,}95$.",
+            "en": "Given non-ad, probability of unflagged exceeds $0.95$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "vi": "Xác suất có điều kiện $>0{,}95$.",
+            "en": "Conditional probability $>0.95$."
+          }
+        }
+      ]
+    },
+    {
+      "id": "off25-0101-q17",
+      "part": 3,
+      "order": 17,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
+      "stem": {
+        "vi": "Nam chọn ngẫu nhiên 6 số từ $S=\\{11,\\ldots,19\\}$ và xếp vào $A,B,C,M,N,P$ sao cho $(A,M,B)$, $(B,N,C)$, $(C,P,A)$ lần lượt là cấp số cộng. Gọi $a$ là xác suất giải mật thư. Tìm $\\dfrac{1}{a}$.",
+        "en": "Nam randomly chooses 6 numbers from $S=\\{11,\\ldots,19\\}$ and places them at $A,B,C,M,N,P$ so that $(A,M,B)$, $(B,N,C)$, $(C,P,A)$ are arithmetic progressions in order. Let $a$ be the success probability. Find $\\dfrac{1}{a}$."
+      },
+      "acceptedAnswers": [
+        "1260"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "vi": "$a=\\dfrac{1}{1260}$, nên $\\dfrac{1}{a}=1260$.",
+        "en": "$a=\\dfrac{1}{1260}$, so $\\dfrac{1}{a}=1260$."
+      }
+    },
+    {
+      "id": "off25-0101-q18",
+      "part": 3,
+      "order": 18,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
+      "stem": {
+        "vi": "Doanh nghiệp sản xuất $x$ sản phẩm ($1\\le x\\le 4500$) với doanh thu $F(x)=-0{,}01x^2+300x$ và chi phí bình quân $G(x)=\\dfrac{30000}{x}+200$ (nghìn đồng/sản phẩm). Tìm số sản phẩm tối thiểu để lợi nhuận vượt $100$ triệu đồng.",
+        "en": "A firm produces $x$ items ($1\\le x\\le 4500$) with revenue $F(x)=-0.01x^2+300x$ and average cost $G(x)=\\dfrac{30000}{x}+200$ (thousand VND/item). Find the minimum $x$ for profit exceeding $100$ million VND."
+      },
+      "acceptedAnswers": [
+        "1536"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "vi": "Giải $P(x)>100000$ cho $x\\in\\mathbb{N}^*$ được $x\\ge 1536$.",
+        "en": "Solving $P(x)>100000$ gives minimum $x=1536$."
+      }
+    },
+    {
+      "id": "off25-0101-q19",
+      "part": 3,
+      "order": 19,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
+      "stem": {
+        "vi": "CLB bán nước chanh và khoai chiên. Thực đơn 1: $30$ nghìn (2 chanh, 1 khoai). Thực đơn 2: $50$ nghìn (3 chanh, 2 khoai). Tối đa $165$ cốc chanh và $100$ túi khoai. Số tiền lớn nhất thu được (nghìn đồng)?",
+        "en": "A club sells lemonade and fries. Menu 1: $30$k (2 lemonade, 1 fries). Menu 2: $50$k (3 lemonade, 2 fries). At most $165$ cups and $100$ bags. Maximum revenue (thousand VND)?"
+      },
+      "acceptedAnswers": [
+        "2650"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "vi": "Tối đa hóa $Z=30x+50y$ với ràng buộc cho $Z_{\\max}=2650$.",
+        "en": "Maximize $Z=30x+50y$ under constraints; $Z_{\\max}=2650$."
+      }
+    },
+    {
+      "id": "off25-0101-q20",
+      "part": 3,
+      "order": 20,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
+      "stem": {
+        "vi": "Chóp $S.ABCD$ có đáy hình thoi $AB=2$, $\\widehat{ABC}=60^\\circ$, $SH=\\sqrt3$ với $H$ trọng tâm tam giác $ABC$. Khoảng cách giữa $AC$ và $SD$ (làm tròn đến hàng phần trăm)?",
+        "en": "Pyramid $S.ABCD$ has rhombus base $AB=2$, $\\angle ABC=60^\\circ$, height $SH=\\sqrt3$ where $H$ is centroid of $\\triangle ABC$. Distance between lines $AC$ and $SD$ (round to hundredths)?"
+      },
+      "acceptedAnswers": [
+        "1.04",
+        "1,04"
+      ],
+      "tolerance": 0.01,
+      "explanation": {
+        "vi": "Khoảng cách giữa hai đường thẳng chéo nhau bằng $1{,}04$.",
+        "en": "Skew-line distance equals $1.04$."
+      }
+    },
+    {
+      "id": "off25-0101-q21",
+      "part": 3,
+      "order": 21,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
+      "stem": {
+        "vi": "Xếp 7 quyển sách khác nhau vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển; hai cách xếp giống nhau nếu cùng số sách mỗi ngăn và cùng thứ tự trái–phải. Gọi $T$ là số cách. Tìm $\\dfrac{T}{100}$.",
+        "en": "Arrange 7 distinct books into 4 shelves with at least one per shelf; arrangements match if each shelf has the same count and left-to-right order. Let $T$ be the number of arrangements. Find $\\dfrac{T}{100}$."
+      },
+      "acceptedAnswers": [
+        "1008"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "vi": "$T=100800$, nên $\\dfrac{T}{100}=1008$.",
+        "en": "$T=100800$, so $\\dfrac{T}{100}=1008$."
+      }
+    },
+    {
+      "id": "off25-0101-q22",
+      "part": 3,
+      "order": 22,
+      "source": "official-thpt-2025-0101",
+      "status": "approved",
+      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
+      "stem": {
+        "vi": "Chân đế gồm hình chóp cụt tứ giác đều (đáy $7{,}4$ cm và $10{,}4$ cm, cao $1{,}5$ cm) trừ phần $H$ là phần cầu bán kính $5{,}8$ cm cắt bởi mặt phẳng tạo hình tròn bán kính $3{,}5$ cm. Thể tích chân đế (cm$^3$, làm tròn đến hàng phần mười)?",
+        "en": "A base is a regular square frustum (bases $7.4$ cm and $10.4$ cm, height $1.5$ cm) minus spherical cap $H$ from a sphere of radius $5.8$ cm cut by a plane with circular section radius $3.5$ cm. Volume in cm$^3$ (round to tenths)?"
+      },
+      "acceptedAnswers": [
+        "96.5",
+        "96,5"
+      ],
+      "tolerance": 0.05,
+      "explanation": {
+        "vi": "Thể tích phần còn lại $\\approx 96{,}5$ cm$^3$.",
+        "en": "Remaining volume $\\approx 96.5$ cm$^3$."
+      }
+    }
+  ]
+}

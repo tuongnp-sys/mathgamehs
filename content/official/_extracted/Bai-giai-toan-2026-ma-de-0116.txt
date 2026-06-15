@@ -1,0 +1,368 @@
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Đáp án chi tiết tham khảo môn Toán kì thi tốt nghiệp THPTQG năm
+2026
+Mã đề: 0116
+Phần I. Trắc nghiệm
+Câu 1 2 3 4 5 6 7 8 9 10 11 12
+Trả lời A D C C B D C C A B A D
+Phần II. Đúng/sai
+Câu 1.
+a) Đúng
+𝑓′(𝑥) = (1
+3 𝑥3)
+′
+− (2𝑥2)′ + (3𝑥)′ + (8)′ = 𝑥2 − 4𝑥 + 3
+b) Đúng
+𝑥2 − 4𝑥 + 3 = 0 ⇔ (𝑥 − 1)(𝑥 − 3) = 0 ⇔ 𝑥 = 1, 𝑥 = 3
+c) Đúng
+Bảng xét dấu 𝑓′(𝑥) = 𝑥2 − 4𝑥 + 3:
+𝑓′(𝑥) > 0 khi 𝑥 < 1 hoặc 𝑥 > 3, 𝑓′(𝑥) < 0 khi 1 < 𝑥 < 3
+Hàm số nghịch biến khi 𝑓′(𝑥) < 0 → đúng là trên (1; 3).
+d) Sai
+Cực đại tại 𝑥 = 1, cực tiểu tại 𝑥 = 3.
+𝑓(3) = 1
+3 ⋅ 27 − 2 ⋅ 9 + 3 ⋅ 3 + 8 = 9 − 18 + 9 + 8 = 8
+8 = 24
+3 , đề nói 28
+3 là sai.
+Câu 2.
+a) Đúng
+𝑃(khoˆ ng CB) = 9000
+10000 = 0,9
+b) Đúng
+𝑃(khoˆ ng bệnh ∣ khoˆ ng CB) = 8800
+9000 = 88
+90 ≈ 0,9778 > 0,97
+
+-- 1 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+c) Sai
+𝑃(khoˆ ng bệnh) = 9200
+10000 = 0,92
+d) Đúng
+𝑃(khoˆ ng CB ∣ khoˆ ng bệnh) = 8800
+9200 = 88
+92 ≈ 0,9565 > 0,95
+Câu 3.
+a) Đúng
+Tính tọa độ vectơ 𝑀𝑁	⃗⃗⃗⃗⃗⃗⃗ từ 𝑀(2; 11; 3) và 𝑁(14; 2; 3):
+𝑀𝑁	⃗⃗⃗⃗⃗⃗⃗ = (14 − 2; 2 − 11; 3 − 3) = (12; −9; 0)
+b) Sai
+Đường thẳng đi qua điểm 𝑀(2; 11; 3).
+Chọn vectơ chỉ phương 𝑢⃗ = 1
+3 𝑀𝑁	⃗⃗⃗⃗⃗⃗⃗ = (4; −3; 0).
+Phương trình tham số của đường thẳng 𝑀𝑁 phải là:
+{
+𝑥 = 2 + 4𝑡
+𝑦 = 11 − 3𝑡
+𝑧 = 3
+c) Sai
+Gọi 𝑃(𝑥; 𝑦; 3) là một vị trí bất kỳ của máy bay trên đoạn thẳng 𝑀𝑁. Hình chiếu vuông góc của 𝑃
+xuống mặt phẳng (𝑂𝑥𝑦) là điểm 𝑃′(𝑥; 𝑦; 0).
+Khoảng cách từ 𝑃 đến một điểm 𝐾 bất kỳ trên vành đai bảo vệ (đường tròn tâm 𝑂, bán kính 𝑅 = 6) là
+cạnh huyền của tam giác vuông 𝑃𝑃′𝐾:
+𝑃𝐾 = √𝑃𝑃′2 + 𝑃′𝐾2 = √32 + 𝑃′𝐾2
+Để 𝑃𝐾 ngắn nhất, đoạn 𝑃′𝐾 (trong mặt phẳng (𝑂𝑥𝑦)) phải ngắn nhất.
+Khoảng cách ngắn nhất từ điểm 𝑃′ đến đường tròn tâm 𝑂 bán kính 𝑅 là: |𝑂𝑃′ − 𝑅| = |𝑂𝑃′ − 6|.
+Do đó, khoảng cách từ máy bay đến vành đai là hàm:
+𝑑 = √9 + (𝑂𝑃′ − 6)2
+Để 𝑑 nhỏ nhất, ta cần tìm độ dài 𝑂𝑃′ nhỏ nhất trên đoạn 𝑀𝑁. Phương trình đoạn thẳng 𝑀𝑁 theo tham
+số 𝑘 ∈ [0,1] là: {
+𝑥 = 2 + 12𝑘
+𝑦 = 11 − 9𝑘
+𝑧 = 3
+Bình phương khoảng cách từ 𝑂 đến 𝑃′:
+𝑂𝑃′2 = 𝑥2 + 𝑦2 = (2 + 12𝑘)2 + (11 − 9𝑘)2 = 225𝑘2 − 150𝑘 + 125
+
+-- 2 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Xét hàm số 𝑓(𝑘) = 225𝑘2 − 150𝑘 + 125 trên đoạn [0,1]:
+𝑓′(𝑘) = 450𝑘 − 150 = 0 ⇔ 𝑘 = 1
+3
+Tại 𝑘 = 1
+3, ta có cực tiểu: 𝑂𝑃′2 = 225 (1
+9) − 150 (1
+3) + 125 = 100 ⇒ 𝑂𝑃′ = 10.
+Kiểm tra tại các mút: 𝑘 = 0 ⇒ 𝑂𝑃′ = √125 và 𝑘 = 1 ⇒ 𝑂𝑃′ = √200.
+Vì trên toàn bộ đoạn bay, 𝑂𝑃′ ≥ 10 > 6, nên biểu thức (𝑂𝑃′ − 6)2 đạt giá trị nhỏ nhất khi 𝑂𝑃′ = 10.
+Khoảng cách ngắn nhất tính theo đơn vị tọa độ là:
+𝑑min = √9 + (10 − 6)2 = √9 + 16 = 5(đơn vị)
+Đổi ra thực tế: 5 × 10mét = 50mét.
+d) Đúng
+Theo tính toán ở câu c), khoảng cách đạt giá trị nhỏ nhất khi tham số 𝑘 = 1
+3.
+Thay 𝑘 = 1
+3 vào phương trình tham số của quỹ đạo bay:
+{
+𝑥 = 2 + 12 (1
+3) = 6
+𝑦 = 11 − 9 (1
+3) = 8
+𝑧 = 3
+Vị trí máy bay lúc đó chính là (6; 8; 3).
+Câu 4.
+a) Đúng
+Ta tìm hàm 𝐹(𝑡) bằng cách lấy nguyên hàm của hàm tốc độ 𝑓(𝑡):
+𝐹(𝑡) = ∫ 𝑓(𝑡)𝑑𝑡 = ∫ (−0.15𝑡2 + 1.8𝑡)𝑑𝑡
+𝐹(𝑡) = −0.15 ⋅ 𝑡3
+3 + 1.8 ⋅ 𝑡2
+2 + 𝐶
+𝐹(𝑡) = −0.05𝑡3 + 0.9𝑡2 + 𝐶
+Sử dụng điều kiện ban đầu 𝐹(0) = 0:
+−0.05(03) + 0.9(02) + 𝐶 = 0 ⇒ 𝐶 = 0
+Vậy hàm số năng lượng là 𝐹(𝑡) = −0.05𝑡3 + 0.9𝑡2.
+b) Đúng
+Theo ý nghĩa vật lý của tích phân và Định lý cơ bản của Giải tích, tổng lượng biến thiên của năng
+lượng 𝐹(𝑡) từ thời điểm 𝑎 đến 𝑏 được tính bằng tích phân xác định của tốc độ biến thiên 𝑓(𝑡) trên
+đoạn đó:
+
+-- 3 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Δ𝐹 = 𝐹(𝑏) − 𝐹(𝑎) = ∫ 𝑓
+𝑏
+𝑎
+(𝑡)𝑑𝑡
+Do đó, phát biểu này hoàn toàn chính xác về mặt lý thuyết.
+c) Sai
+Năng lượng điện lưu trữ từ 𝑡 = 1 đến 𝑡 = 5 là:
+𝐸1→5 = ∫ 𝑓
+5
+1
+(𝑡)𝑑𝑡 = 𝐹(5) − 𝐹(1)
+Tính các giá trị 𝐹(5) và 𝐹(1) dựa vào hàm 𝐹(𝑡) tìm được ở câu a:
+𝐹(5) = −0.05(53) + 0.9(52) = −0.05(125) + 0.9(25) = −6.25 + 22.5 = 16.25
+𝐹(1) = −0.05(13) + 0.9(12) = −0.05 + 0.9 = 0.85
+Vậy lượng điện lưu trữ là:
+𝐸1→5 = 16.25 − 0.85 = 15.4(kWh)
+So sánh với giả thiết: 15.4 > 15.3. Phát biểu nói nhỏ hơn là sai.
+d) Sai
+Tính lượng điện lưu trữ từ 𝑡 = 1 đến 𝑡 = 9:
+𝐸1→9 = ∫ 𝑓
+9
+1
+(𝑡)𝑑𝑡 = 𝐹(9) − 𝐹(1)
+𝐹(9) = −0.05(93) + 0.9(92) = −0.05(729) + 0.9(81) = −36.45 + 72.9 = 36.45
+𝐸1→9 = 36.45 − 0.85 = 35.6(kWh)
+Gấp hai lần năng lượng từ 𝑡 = 1 đến 𝑡 = 5 là:
+2 × 𝐸1→5 = 2 × 15.4 = 30.8(kWh)
+So sánh hai giá trị: 35.6 ≠ 30.8.
+Phần III. Trả lời ngắn
+Câu 1: 17,1
+
+-- 4 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Xét hình lập phương ABCD.MNPQ, ta có 𝐴𝑀⟂(𝐴𝐵𝐶𝐷) nên
+𝐴𝑀⟂𝐴𝐷 và 𝐴𝑀⟂𝐴𝐸.
+Mặt khác, 𝐴𝐵𝐶𝐷 là hình vuông nên 𝐴𝐷⟂𝐴𝐸.
+Suy ra, tứ diện 𝐴𝑀𝐸𝐷 là tứ diện vuông tại đỉnh 𝐴.
+Gọi ℎ𝐴 = 𝑑(𝐴, (𝑀𝐸𝐷)).
+⇒ 1
+ℎ𝐴
+2 = 1
+𝐴𝑀2 + 1
+𝐴𝐷2 + 1
+𝐴𝐸2
+Mà 𝑎 = 14, ta có 𝐴𝑀 = 14, 𝐴𝐷 = 14 và 𝐸 là trung điểm 𝐴𝐵
+nên 𝐴𝐸 = 7.
+1
+ℎ𝐴
+2 = 1
+142 + 1
+142 + 1
+72 = 1
+196 + 1
+196 + 4
+196 = 6
+196
+⇒ ℎ𝐴 = 14
+√6
+Xét mặt phẳng (𝐴𝐵𝐶𝐷), gọi 𝐹 là giao điểm của 𝐴𝐶 và 𝐷𝐸. Ta
+kéo dài 𝐷𝐸 cắt đường thẳng 𝐶𝐵 tại 𝐺.
+Do 𝐴𝐷 ∥ 𝐵𝐺, áp dụng định lý Thales ta có: 𝐵𝐺
+𝐴𝐷 = 𝐵𝐸
+𝐴𝐸 = 1 ⇒ 𝐵𝐺 = 𝐴𝐷 = 14.
+Từ đó, 𝐶𝐺 = 𝐶𝐵 + 𝐵𝐺 = 14 + 14 = 28.
+Do 𝐴𝐷 ∥ 𝐶𝐺, xét 2 tam giác đồng dạng Δ𝐹𝐴𝐷 ∼ Δ𝐹𝐶𝐺, ta có: 𝐹𝐶
+𝐹𝐴 = 𝐶𝐺
+𝐴𝐷 = 28
+14 = 2
+Đường thẳng 𝐴𝐶 cắt mặt phẳng (𝑀𝐸𝐷) tại 𝐹, nên
+𝑑(𝐶, (𝑀𝐸𝐷))
+𝑑(𝐴, (𝑀𝐸𝐷)) = 𝐹𝐶
+𝐹𝐴 = 2 ⇒ 𝑑(𝐶, (𝑀𝐸𝐷)) = 2 ⋅ 𝑑(𝐴, (𝑀𝐸𝐷))
+Hai cạnh bên 𝐴𝑀 và 𝐶𝑃 song song với nhau.
+Xét mặt phẳng (𝐴𝑀𝑃𝐶) cắt mặt phẳng (𝑀𝐸𝐷) theo giao tuyến là đường thẳng 𝑀𝐹.
+Gọi 𝐻 là giao điểm của đường thẳng 𝐶𝑃 và đường thẳng 𝑀𝐹.
+Vì 𝐴𝑀 ∥ 𝐶𝐻, theo định lý Thales: 𝐶𝐻
+𝐴𝑀 = 𝐹𝐶
+𝐹𝐴 = 2 ⇒ 𝐶𝐻 = 2𝐴𝑀 = 2 ⋅ 14 = 28
+⇒ 𝑃𝐻 = 𝑃𝐶 + 𝐶𝐻 = 14 + 28 = 42
+Đường thẳng 𝑃𝐶 cắt mặt phẳng (𝑀𝐸𝐷) tại 𝐻, nên ta có: 𝑑(𝑃,(𝑀𝐸𝐷))
+𝑑(𝐶,(𝑀𝐸𝐷)) = 𝑃𝐻
+𝐶𝐻 = 42
+28 = 3
+2
+⇒ 𝑑(𝑃, (𝑀𝐸𝐷)) = 3
+2 ⋅ 𝑑(𝐶, (𝑀𝐸𝐷)) = 3
+2 ⋅ [2 ⋅ 𝑑(𝐴, (𝑀𝐸𝐷))] = 3 ⋅ 𝑑(𝐴, (𝑀𝐸𝐷))
+
+-- 5 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+⇒ 𝑑(𝑃, (𝑀𝐸𝐷)) = 3 ⋅ 14
+√6 = 42
+√6 = 7√6 ≈ 17,1.
+Câu 2: 1350
+Gọi số tiền thu được vào ngày Thứ Bảy là 𝑇.
+So sánh khối lượng rau quả bán được của ngày Thứ Bảy và ngày Thứ Năm:
+Rau muống: 50 kg so với 20 kg ⇒ Gấp 2.5 lần (50 = 2.5 × 20).
+Bí xanh: 30 kg so với 12 kg ⇒ Gấp 2.5 lần (30 = 2.5 × 12).
+Cà chua: 20 kg so với 8 kg ⇒ Gấp 2.5 lần (20 = 2.5 × 8).
+Vì khối lượng của từng loại rau quả bán ra trong ngày Thứ Bảy đều gấp đúng 2.5 lần so với ngày Thứ
+Năm, và đơn giá là không đổi, nên tổng doanh thu ngày Thứ Bảy cũng sẽ gấp 2.5 lần tổng doanh thu
+ngày Thứ Năm.
+Suy ra, tổng số tiền ngày Thứ Bảy là:
+𝑇 = 2.5 × 540 = 1350 (nghìn đồng)
+Câu 3: 2656
+Tổng số cách lắp 12 bóng đèn vào đa giác là: 12!
+Đa giác đều 12 cạnh có tổng cộng 12
+4 = 3 hình vuông có đỉnh rời nhau.
+Gọi 𝐴 là biến cố: “Mỗi hình vuông đều có ít nhất một bóng đèn màu đỏ”.
+Để phân bố 4 bóng đỏ này vào 3 hình vuông sao cho mỗi hình vuông có ít nhất 1 bóng, theo nguyên lí
+Dirichlet sẽ có đúng một hình vuông chứa 2 bóng đỏ, và hai hình vuông còn lại mỗi hình vuông chứa 1
+bóng đỏ.
+Chọn ra 1 hình vuông (trong 3 hình vuông) để gắn 2 bóng đỏ. Có 𝐶3
+1 = 3 cách.
+Chọn 2 đỉnh trong hình vuông vừa chọn để gắn bóng đỏ. Có 𝐶4
+2 = 6 cách.
+2 hình vuông còn lại, mỗi hình vuông chọn ra 1 đỉnh để gắn bóng đỏ: 𝐶4
+1 × 𝐶4
+1 = 16 cách.
+Xếp 4 bóng đèn đỏ (phân biệt) vào 4 đỉnh vừa chọn. Có 4! cách.
+Xếp 8 bóng đèn xanh (phân biệt) vào 8 đỉnh còn lại. Có 8! cách.
+Do đó, số kết quả thuận lợi cho biến cố 𝐴 là:
+3 × 6 × 16 × 4! × 8! = 288 × 4! × 8!
+Xác suất của biến cố là:
+𝑃 = 288 × 4! × 8!
+12! = 288
+12!
+4! 8!
+= 288
+𝐶12
+4 = 288
+495 = 32
+55
+
+-- 6 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Giá trị biểu thức cần tính là:
+4565𝑃 = 4565 × 32
+55 = 2656
+Câu 4: 3980
+Hàm lợi nhuận 𝑃(𝑥) (triệu đồng) trên đoạn [1; 180] là:
+𝑃(𝑥) = 𝑅(𝑥) − 𝐶(𝑥) = 90𝑥 − (0,002𝑥3 + 30𝑥 + 20) = −0,002𝑥3 + 60𝑥 − 20
+𝑃′(𝑥) = −0,006𝑥2 + 60
+Xét 𝑃′(𝑥) = 0 ⟹ 𝑥2 = 10000 ⟹ 𝑥 = 100 (do 𝑥 ∈ [1; 180])
+Tính giá trị của hàm số:
+• 𝑃(1) = 39,998
+• 𝑃(100) = 3980
+• 𝑃(180) = −884
+So sánh Ta thấy giá trị lớn nhất của 𝑃(𝑥) là 3980 tại 𝑥 = 100.
+Câu 5: 6,19
+Từ phương trình elip 𝑥2
+1,52 + 𝑦2
+12 = 1, ta có phương trình nửa trên của elip là: 𝑦2 = 1 − 𝑥2
+2,25
+Lỗ khoan hình trụ có bán kính 0,1 cm nên phương trình đường biên của lỗ khoan là: 𝑦 = 0,1
+Xét phương trình hoành độ giao điểm của elip và biên lỗ khoan:
+1 − 𝑥2
+2,25 = 0, 12
+⟹ 𝑥2
+2,25 = 0,99
+⟹ 𝑥2 = 2,2275 ⟹ 𝑥 = ±√2,2275
+Đặt 𝑥0 = √2,2275. Khối hạt cườm được giới hạn trên trục 𝑂𝑥 thuộc đoạn [−𝑥0; 𝑥0].
+Thể tích hạt cườm là thể tích khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi hai đường biên
+trên quanh trục 𝑂𝑥. Do tính đối xứng của đồ thị, ta có:
+𝑉 = 𝜋 ∫ (𝑦elip
+2 − 𝑦trụ
+2 )
+𝑥0
+−𝑥0
+𝑑𝑥
+𝑉 = 2𝜋 ∫ (1 − 𝑥2
+2,25 − 0,01)
+𝑥0
+0
+𝑑𝑥
+
+-- 7 of 8 --
+
+Trung tâm Toán & Khoa học TP-edu.vn
+Thầy Tô Cường & cộng sự.
+Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+Tp-edu.vn Liên hệ: 0349.705.576. Số 2 ngõ 95 Hoàng Cầu
+𝑉 = 2𝜋 ∫ (0,99 − 𝑥2
+2,25)
+𝑥0
+0
+𝑑𝑥
+𝑉 = 2𝜋 [0,99𝑥 − 𝑥3
+6,75]
+0
+𝑥0
+Thay 𝑥0 = √2,2275 vào biểu thức (giữ độ chính xác khi bấm máy):
+𝑉 = 2𝜋 (0,99√2,2275 − (√2,2275)3
+6,75 )
+𝑉 ≈ 6,18917 (cm3)
+Câu 6: 3456
+Ta chia 15 số thành 5 nhóm:
+• Nhóm 5 số (chia dư 1): {1; 6; 11; 16; 21}
+• Nhóm 4 số (chia dư 2): {2; 7; 12; 17}
+• Nhóm 3 số (chia dư 3): {3; 8; 13}
+• Nhóm 2 số (chia dư 4): {4; 9}
+• Nhóm 1 số (chia hết): {5}
+Quy luật xếp : Các số trong cùng một nhóm không được đứng cùng hàng hoặc cùng cột
+Quan sát bảng hình bậc thang, ta thấy bảng này được tạo thành từ 5 đường chéo (hướng từ dưới-trái
+lên trên-phải) có số lượng ô lần lượt đúng bằng: 5 ô, 4 ô, 3 ô, 2 ô và 1 ô.
+Để các số trong cùng một nhóm không bị vi phạm hàng/cột, quy tắc duy nhất là: Nhóm có bao nhiêu
+số thì phải xếp trọn vẹn vào đường chéo có bấy nhiêu ô.
+• Xếp nhóm 5 số vào đường chéo 5 ô: Có 5! cách hoán vị.
+• Xếp nhóm 4 số vào đường chéo 4 ô: Có 4! cách hoán vị.
+• Xếp nhóm 3 số vào đường chéo 3 ô: Có 3! cách hoán vị.
+• Xếp nhóm 2 số vào đường chéo 2 ô: Có 2! cách hoán vị.
+• Xếp nhóm 1 số vào đường chéo 1 ô: Có 1! cách hoán vị.
+Tổng số cách điền 𝐻 là tích của các hoán vị trên:
+𝐻 = 5! ⋅ 4! ⋅ 3! ⋅ 2! ⋅ 1! = 120 ⋅ 24 ⋅ 6 ⋅ 2 ⋅ 1 = 34560
+Giá trị cần tìm là:
+𝐻
+10 = 34560
+10 = 3456
+
+-- 8 of 8 --
+

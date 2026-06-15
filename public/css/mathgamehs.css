@@ -1,0 +1,418 @@
+:root {
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --border: #2d3a4f;
+  --text: #e8eef7;
+  --muted: #8b9cb3;
+  --accent: #3d8bfd;
+  --accent-dim: #2563b8;
+  --ok: #3ecf8e;
+  --bad: #f07178;
+  --warn: #e6b450;
+  --radius: 10px;
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+body.portal-mode {
+  overflow: hidden;
+  height: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-height: 100dvh;
+}
+
+body.portal-mode .app-shell {
+  height: 100%;
+  max-height: 450px;
+  min-height: 0;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.brand-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+body.portal-mode .app-main {
+  overflow: hidden;
+}
+
+.screen-root {
+  height: 100%;
+  padding: 0.75rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+body.portal-mode .panel {
+  max-width: none;
+  padding: 0.65rem;
+}
+
+.panel-center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.screen-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.25rem;
+}
+
+.screen-sub {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.btn-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: #243044;
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.55rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent-dim);
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-accent {
+  border-color: #5a4fcf;
+  background: #3d3680;
+}
+
+.btn-official {
+  border-color: #2a7d6e;
+  background: #1e5c52;
+}
+
+.lang-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.lang-label {
+  color: var(--muted);
+}
+
+.exam-paper-img {
+  margin-bottom: 0.5rem;
+  max-height: 140px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.exam-paper-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: top center;
+}
+
+body.portal-mode .exam-paper-img {
+  max-height: 90px;
+}
+
+.btn-ghost {
+  background: transparent;
+}
+
+.btn-sm {
+  padding: 0.3rem 0.55rem;
+  font-size: 0.8rem;
+}
+
+.btn-sm.active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.exam-panel {
+  display: flex;
+  flex-direction: column;
+  height: calc(100dvh - 2rem);
+  max-height: 100%;
+}
+
+body.portal-mode .exam-panel {
+  height: 100%;
+  max-height: calc(450px - 1.5rem);
+}
+
+.exam-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+}
+
+.exam-meta {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.exam-timer {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--warn);
+}
+
+.flag-btn.flagged {
+  color: var(--warn);
+  border-color: var(--warn);
+}
+
+.exam-body {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 0.25rem 0;
+}
+
+body.portal-mode .exam-body {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.q-context,
+.q-stem {
+  margin-bottom: 0.75rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.option-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.option-row:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.opt-label {
+  font-weight: 600;
+  min-width: 1.2rem;
+}
+
+.subitem-row {
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.subitem-text {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.tf-group {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.input-short {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.exam-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  margin: 0.5rem 0;
+}
+
+.progress-dots {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: center;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.dot.active {
+  background: var(--accent);
+}
+
+.exam-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.exam-actions .btn-primary {
+  flex: 1;
+}
+
+.score-grid {
+  margin: 1rem 0;
+}
+
+.score-main {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.score-parts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.solution-list {
+  max-height: 40vh;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+body.portal-mode .solution-list {
+  max-height: 120px;
+}
+
+.solution-card {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.solution-card.ok {
+  border-left-color: var(--ok);
+}
+
+.solution-card.bad {
+  border-left-color: var(--bad);
+}
+
+.solution-card .expl {
+  color: var(--muted);
+}
+
+.notebook-list {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.warn {
+  color: var(--warn);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.math-content .katex {
+  font-size: 1.05em;
+}

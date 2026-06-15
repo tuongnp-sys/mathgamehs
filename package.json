@@ -1,0 +1,28 @@
+{
+  "name": "mathgamehs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5180",
+    "build": "vite build",
+    "build:portal": "cross-env VITE_PORTAL=1 vite build",
+    "preview": "vite preview --port 4173",
+    "measure:dist": "node scripts/measure-dist.mjs",
+    "extract:pdf-text": "node scripts/extract-pdf-text.mjs",
+    "extract:exam-pages": "node scripts/extract-pdf-pages.mjs content/official/2026/de-chinh-thuc-toan-nam-2026-tot-nghiep-thpt-ma-de-0116-co-dap-an.pdf 2026-0116 && node scripts/extract-pdf-pages.mjs content/official/2025/de-va-dap-an-chinh-thuc-ky-thi-tot-nghiep-thpt-nam-2025-mon-toan.pdf 2025-de-dapan",
+    "package:itch": "node scripts/package-portal.mjs itch",
+    "package:poki": "node scripts/package-portal.mjs poki",
+    "package:gamepix": "node scripts/package-portal.mjs gamepix",
+    "package:crazygames": "node scripts/package-portal.mjs crazygames"
+  },
+  "devDependencies": {
+    "canvas": "^3.2.3",
+    "cross-env": "^7.0.3",
+    "pdf-parse": "^2.4.5",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "katex": "^0.16.22"
+  }
+}

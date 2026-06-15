@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "seed-p1-01",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_TRIG",
+      "difficulty": "NB",
+      "matrixSlot": "P1_01",
+      "status": "approved",
+      "stem": {
+        "en": "The value of $\\sin 30^\\circ$ is",
+        "vi": "Giá trị của $\\sin 30^\\circ$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$\\dfrac{1}{2}$",
+            "vi": "$\\dfrac{1}{2}$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$\\dfrac{\\sqrt{3}}{2}$",
+            "vi": "$\\dfrac{\\sqrt{3}}{2}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$1$",
+            "vi": "$1$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$0$",
+            "vi": "$0$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$\\sin 30^\\circ = \\dfrac{1}{2}$.",
+        "vi": "$\\sin 30^\\circ = \\dfrac{1}{2}$."
+      }
+    },
+    {
+      "id": "seed-p1-02",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_SEQ",
+      "difficulty": "TH",
+      "matrixSlot": "P1_02",
+      "status": "approved",
+      "stem": {
+        "en": "An arithmetic sequence has $u_1 = 3$ and common difference $d = 4$. Find $u_5$.",
+        "vi": "Cấp số cộng có $u_1 = 3$ và công sai $d = 4$. Tìm $u_5$."
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$15$",
+            "vi": "$15$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$19$",
+            "vi": "$19$"
+          },
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$23$",
+            "vi": "$23$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$11$",
+            "vi": "$11$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$u_5 = u_1 + 4d = 3 + 16 = 19$.",
+        "vi": "$u_5 = u_1 + 4d = 3 + 16 = 19$."
+      }
+    },
+    {
+      "id": "seed-p1-03",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_SOLID",
+      "difficulty": "TH",
+      "matrixSlot": "P1_03",
+      "status": "approved",
+      "stem": {
+        "en": "A right prism has a square base with side $4$ and height $5$. Its volume is",
+        "vi": "Lăng trụ đứng có đáy vuông cạnh $4$ và chiều cao $5$. Thể tích bằng"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$80$",
+            "vi": "$80$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$40$",
+            "vi": "$40$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$100$",
+            "vi": "$100$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$20$",
+            "vi": "$20$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$V = 4^2 \\times 5 = 80$.",
+        "vi": "$V = 4^2 \\times 5 = 80$."
+      }
+    },
+    {
+      "id": "seed-p1-04",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_SOLID",
+      "difficulty": "TH",
+      "matrixSlot": "P1_04",
+      "status": "approved",
+      "stem": {
+        "en": "A sphere has radius $R = 3$. Its surface area is",
+        "vi": "Một hình cầu có bán kính $R = 3$. Diện tích mặt cầu bằng"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$12\\pi$",
+            "vi": "$12\\pi$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$27\\pi$",
+            "vi": "$27\\pi$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$36\\pi$",
+            "vi": "$36\\pi$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$9\\pi$",
+            "vi": "$9\\pi$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$S = 4\\pi R^2 = 36\\pi$.",
+        "vi": "$S = 4\\pi R^2 = 36\\pi$."
+      }
+    },
+    {
+      "id": "seed-p1-05",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_EXPLOG",
+      "difficulty": "NB",
+      "matrixSlot": "P1_05",
+      "status": "approved",
+      "stem": {
+        "en": "The solution of $2^x = 8$ is",
+        "vi": "Nghiệm của phương trình $2^x = 8$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$x = 2$",
+            "vi": "$x = 2$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$x = 4$",
+            "vi": "$x = 4$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$x = 3$",
+            "vi": "$x = 3$"
+          },
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$x = 1$",
+            "vi": "$x = 1$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$2^x = 2^3 \\Rightarrow x = 3$.",
+        "vi": "$2^x = 2^3 \\Rightarrow x = 3$."
+      }
+    },
+    {
+      "id": "seed-p1-06",
+      "part": 1,
+      "grade": 11,
+      "topicCode": "L11_STATS",
+      "difficulty": "NB",
+      "matrixSlot": "P1_06",
+      "status": "approved",
+      "stem": {
+        "en": "The mean of data $4, 6, 8, 10$ is",
+        "vi": "Trung bình cộng của dãy số $4, 6, 8, 10$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$6$",
+            "vi": "$6$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$7$",
+            "vi": "$7$"
+          },
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$8$",
+            "vi": "$8$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$9$",
+            "vi": "$9$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "Mean $= \\dfrac{4+6+8+10}{4} = 7$.",
+        "vi": "Trung bình $= \\dfrac{4+6+8+10}{4} = 7$."
+      }
+    },
+    {
+      "id": "seed-p1-07",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_CALC",
+      "difficulty": "TH",
+      "matrixSlot": "P1_07",
+      "status": "approved",
+      "stem": {
+        "en": "The derivative of $f(x) = x^3 - 2x$ is",
+        "vi": "Đạo hàm của $f(x) = x^3 - 2x$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$3x^2 - 2$",
+            "vi": "$3x^2 - 2$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$3x^2 - 2x$",
+            "vi": "$3x^2 - 2x$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$x^3 - 2$",
+            "vi": "$x^3 - 2$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$3x^2$",
+            "vi": "$3x^2$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$f'(x) = 3x^2 - 2$.",
+        "vi": "$f'(x) = 3x^2 - 2$."
+      }
+    },
+    {
+      "id": "seed-p1-08",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_INTEGRAL",
+      "difficulty": "TH",
+      "matrixSlot": "P1_08",
+      "status": "approved",
+      "stem": {
+        "en": "$\\displaystyle \\int_0^1 2x\\,dx$ equals",
+        "vi": "$\\displaystyle \\int_0^1 2x\\,dx$ bằng"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$0$",
+            "vi": "$0$"
+          },
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$1$",
+            "vi": "$1$"
+          },
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$2$",
+            "vi": "$2$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$\\dfrac{1}{2}$",
+            "vi": "$\\dfrac{1}{2}$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$\\int_0^1 2x\\,dx = [x^2]_0^1 = 1$.",
+        "vi": "$\\int_0^1 2x\\,dx = [x^2]_0^1 = 1$."
+      }
+    },
+    {
+      "id": "seed-p1-09",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_INTEGRAL",
+      "difficulty": "TH",
+      "matrixSlot": "P1_09",
+      "status": "approved",
+      "stem": {
+        "en": "An antiderivative of $f(x) = \\cos x$ is",
+        "vi": "Một nguyên hàm của $f(x) = \\cos x$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$\\sin x + C$",
+            "vi": "$\\sin x + C$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$-\\sin x + C$",
+            "vi": "$-\\sin x + C$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$\\cos x + C$",
+            "vi": "$\\cos x + C$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$\\tan x + C$",
+            "vi": "$\\tan x + C$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$(\\sin x)' = \\cos x$.",
+        "vi": "$(\\sin x)' = \\cos x$."
+      }
+    },
+    {
+      "id": "seed-p1-10",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_OXYZ",
+      "difficulty": "TH",
+      "matrixSlot": "P1_10",
+      "status": "approved",
+      "stem": {
+        "en": "In $Oxyz$, the distance from $M(1,2,2)$ to the origin is",
+        "vi": "Trong $Oxyz$, khoảng cách từ $M(1,2,2)$ đến gốc tọa độ bằng"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$3$",
+            "vi": "$3$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$5$",
+            "vi": "$5$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$\\sqrt{5}$",
+            "vi": "$\\sqrt{5}$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$7$",
+            "vi": "$7$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "$OM = \\sqrt{1+4+4} = 3$.",
+        "vi": "$OM = \\sqrt{1+4+4} = 3$."
+      }
+    },
+    {
+      "id": "seed-p1-11",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_OXYZ",
+      "difficulty": "TH",
+      "matrixSlot": "P1_11",
+      "status": "approved",
+      "stem": {
+        "en": "A direction vector of line $\\dfrac{x-1}{2} = \\dfrac{y}{-1} = \\dfrac{z+1}{3}$ is",
+        "vi": "Một vectơ chỉ phương của đường thẳng $\\dfrac{x-1}{2} = \\dfrac{y}{-1} = \\dfrac{z+1}{3}$ là"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$(2,-1,3)$",
+            "vi": "$(2,-1,3)$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$(1,0,-1)$",
+            "vi": "$(1,0,-1)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$(-2,1,-3)$",
+            "vi": "$(-2,1,-3)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$(2,1,3)$",
+            "vi": "$(2,1,3)$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "Coefficients under denominators give direction $(2,-1,3)$.",
+        "vi": "Hệ số dưới mẫu cho vectơ chỉ phương $(2,-1,3)$."
+      }
+    },
+    {
+      "id": "seed-p1-12",
+      "part": 1,
+      "grade": 12,
+      "topicCode": "L12_OXYZ",
+      "difficulty": "VD",
+      "matrixSlot": "P1_12",
+      "status": "approved",
+      "stem": {
+        "en": "The plane $2x - y + 2z - 6 = 0$ has normal vector",
+        "vi": "Mặt phẳng $2x - y + 2z - 6 = 0$ có vectơ pháp tuyến"
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": {
+            "en": "$(2,-1,2)$",
+            "vi": "$(2,-1,2)$"
+          },
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": {
+            "en": "$(2,1,2)$",
+            "vi": "$(2,1,2)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": {
+            "en": "$(-2,1,-2)$",
+            "vi": "$(-2,1,-2)$"
+          },
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": {
+            "en": "$(6,-3,6)$",
+            "vi": "$(6,-3,6)$"
+          },
+          "correct": false
+        }
+      ],
+      "explanation": {
+        "en": "Coefficients of $x,y,z$ form the normal vector.",
+        "vi": "Hệ số của $x,y,z$ tạo thành vectơ pháp tuyến."
+      }
+    },
+    {
+      "id": "seed-p2-01",
+      "part": 2,
+      "grade": 12,
+      "topicCode": "L12_CALC",
+      "difficulty": "VD",
+      "matrixSlot": "P2_01",
+      "status": "approved",
+      "context": {
+        "en": "Given $f(x) = x^3 - 3x + 1$.",
+        "vi": "Cho $f(x) = x^3 - 3x + 1$."
+      },
+      "stem": {
+        "en": "Consider the following statements:",
+        "vi": "Xét các mệnh đề sau:"
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "en": "$f'(x) = 3x^2 - 3$.",
+            "vi": "Mệnh đề $f'(x) = 3x^2 - 3$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "en": "Direct differentiation.",
+            "vi": "Đạo hàm trực tiếp."
+          }
+        },
+        {
+          "label": "b",
+          "statement": {
+            "en": "$f$ has two critical points.",
+            "vi": "Hàm số $f$ có hai điểm cực trị."
+          },
+          "isTrue": true,
+          "explanation": {
+            "en": "$f'(x)=0 \\Leftrightarrow x = \\pm 1$.",
+            "vi": "$f'(x)=0 \\Leftrightarrow x = \\pm 1$."
+          }
+        },
+        {
+          "label": "c",
+          "statement": {
+            "en": "$f$ is increasing on $(1,+\\infty)$.",
+            "vi": "Hàm số $f$ đồng biến trên $(1,+\\infty)$."
+          },
+          "isTrue": true,
+          "explanation": {
+            "en": "$f'(x) > 0$ for $x > 1$.",
+            "vi": "$f'(x) > 0$ khi $x > 1$."
+          }
+        },
+        {
+          "label": "d",
+          "statement": {
+            "en": "The maximum value of $f$ on $\\mathbb{R}$ is $3$.",
+            "vi": "Giá trị lớn nhất của $f$ trên $\\mathbb{R}$ bằng $3$."
+          },
+          "isTrue": false,
+          "explanation": {
+            "en": "$f$ has no global maximum on $\\mathbb{R}$.",
+            "vi": "$f$ không có giá trị lớn nhất trên $\\mathbb{R}$."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seed-p2-02",
+      "part": 2,
+      "grade": 12,
+      "topicCode": "L12_INTEGRAL",
+      "difficulty": "VD",
+      "matrixSlot": "P2_02",
+      "status": "approved",
+      "stem": {
+        "en": "For $I = \\displaystyle \\int_0^2 (x+1)\\,dx$, choose True or False:",
+        "vi": "Với $I = \\displaystyle \\int_0^2 (x+1)\\,dx$, chọn Đúng hoặc Sai:"
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "en": "An antiderivative of $x+1$ is $\\dfrac{x^2}{2} + x$.",
+            "vi": "Một nguyên hàm của $x+1$ là $\\dfrac{x^2}{2} + x$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "statement": {
+            "en": "$I = 4$.",
+            "vi": "$I = 4$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "statement": {
+            "en": "$I < 3$.",
+            "vi": "$I < 3$."
+          },
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "statement": {
+            "en": "The integrand is positive on $[0,2]$.",
+            "vi": "Hàm số dưới dấu tích phân dương trên $[0,2]$."
+          },
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": "seed-p2-03",
+      "part": 2,
+      "grade": 12,
+      "topicCode": "L12_OXYZ",
+      "difficulty": "VD",
+      "matrixSlot": "P2_03",
+      "status": "approved",
+      "stem": {
+        "en": "In $Oxyz$, plane $(P): x + y + z - 6 = 0$.",
+        "vi": "Trong $Oxyz$, mặt phẳng $(P): x + y + z - 6 = 0$."
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "en": "A normal vector of $(P)$ is $(1,1,1)$.",
+            "vi": "Vectơ pháp tuyến của $(P)$ là $(1,1,1)$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "statement": {
+            "en": "Point $A(2,2,2)$ lies on $(P)$.",
+            "vi": "Điểm $A(2,2,2)$ thuộc $(P)$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "statement": {
+            "en": "Vector $(1,-1,0)$ is parallel to $(P)$.",
+            "vi": "Vectơ $(1,-1,0)$ song song với $(P)$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "d",
+          "statement": {
+            "en": "The distance from $O$ to $(P)$ equals $2\\sqrt{3}$.",
+            "vi": "Khoảng cách từ $O$ đến $(P)$ bằng $2\\sqrt{3}$."
+          },
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": "seed-p2-04",
+      "part": 2,
+      "grade": 12,
+      "topicCode": "L12_PROB_COND",
+      "difficulty": "VD",
+      "matrixSlot": "P2_04",
+      "status": "approved",
+      "context": {
+        "en": "A box has 3 red and 2 blue balls. One ball is drawn, then a second without replacement.",
+        "vi": "Hộp có 3 bi đỏ và 2 bi xanh. Rút một bi, sau đó rút tiếp không hoàn lại."
+      },
+      "stem": {
+        "en": "Choose True or False:",
+        "vi": "Chọn Đúng hoặc Sai:"
+      },
+      "subItems": [
+        {
+          "label": "a",
+          "statement": {
+            "en": "$P(\\text{first red}) = \\dfrac{3}{5}$.",
+            "vi": "$P(\\text{bi đỏ đầu}) = \\dfrac{3}{5}$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "b",
+          "statement": {
+            "en": "$P(\\text{both red}) = \\dfrac{3}{10}$.",
+            "vi": "$P(\\text{cả hai đỏ}) = \\dfrac{3}{10}$."
+          },
+          "isTrue": true
+        },
+        {
+          "label": "c",
+          "statement": {
+            "en": "The two draws are independent.",
+            "vi": "Hai lần rút độc lập."
+          },
+          "isTrue": false
+        },
+        {
+          "label": "d",
+          "statement": {
+            "en": "$P(\\text{second red} \\mid \\text{first red}) = \\dfrac{1}{2}$.",
+            "vi": "$P(\\text{bi đỏ thứ hai} \\mid \\text{đầu đỏ}) = \\dfrac{1}{2}$."
+          },
+          "isTrue": true
+        }
+      ]
+    },
+    {
+      "id": "seed-p3-01",
+      "part": 3,
+      "grade": 10,
+      "topicCode": "L10_LINEAR_PROG",
+      "difficulty": "VD",
+      "matrixSlot": "P3_01",
+      "status": "approved",
+      "stem": {
+        "en": "The maximum value of $T = 2x + 3y$ subject to $x \\ge 0, y \\ge 0, x + y \\le 4$ at vertex $(0,4)$ is",
+        "vi": "Giá trị lớn nhất của $T = 2x + 3y$ với $x \\ge 0, y \\ge 0, x + y \\le 4$ tại đỉnh $(0,4)$ bằng"
+      },
+      "acceptedAnswers": [
+        "12"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "en": "$T(0,4) = 12$.",
+        "vi": "$T(0,4) = 12$."
+      }
+    },
+    {
+      "id": "seed-p3-02",
+      "part": 3,
+      "grade": 10,
+      "topicCode": "L10_COMBINATORICS",
+      "difficulty": "VD",
+      "matrixSlot": "P3_02",
+      "status": "approved",
+      "stem": {
+        "en": "The number of ways to choose 2 students from 5 is",
+        "vi": "Số cách chọn 2 học sinh từ 5 học sinh bằng"
+      },
+      "acceptedAnswers": [
+        "10"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "en": "$C_5^2 = 10$.",
+        "vi": "$C_5^2 = 10$."
+      }
+    },
+    {
+      "id": "seed-p3-03",
+      "part": 3,
+      "grade": 11,
+      "topicCode": "L11_PROB",
+      "difficulty": "VD",
+      "matrixSlot": "P3_03",
+      "status": "approved",
+      "stem": {
+        "en": "A fair die is rolled once. $P(\\text{even})$ equals (write as decimal)",
+        "vi": "Gieo một con xúc xắc cân đối một lần. $P(\\text{chẵn})$ bằng (viết số thập phân)"
+      },
+      "acceptedAnswers": [
+        "0.5",
+        "0,5",
+        "1/2"
+      ],
+      "tolerance": 0.01,
+      "explanation": {
+        "en": "Three even faces out of six: $P = \\dfrac{1}{2}$.",
+        "vi": "Ba mặt chẵn trong sáu: $P = \\dfrac{1}{2}$."
+      }
+    },
+    {
+      "id": "seed-p3-04",
+      "part": 3,
+      "grade": 11,
+      "topicCode": "L11_SOLID",
+      "difficulty": "VD",
+      "matrixSlot": "P3_04",
+      "status": "approved",
+      "stem": {
+        "en": "A cone has base radius $3$ and height $4$. Its volume is (use $\\pi$ as number $3.14$, round to integer)",
+        "vi": "Hình nón có bán kính đáy $3$ và chiều cao $4$. Thể tích bằng (lấy $\\pi \\approx 3{,}14$, làm tròn số nguyên)"
+      },
+      "acceptedAnswers": [
+        "38"
+      ],
+      "tolerance": 1,
+      "explanation": {
+        "en": "$V = \\dfrac{1}{3}\\pi r^2 h \\approx 37.68 \\rightarrow 38$.",
+        "vi": "$V = \\dfrac{1}{3}\\pi r^2 h \\approx 37{,}68 \\rightarrow 38$."
+      }
+    },
+    {
+      "id": "seed-p3-05",
+      "part": 3,
+      "grade": 12,
+      "topicCode": "L12_CALC",
+      "difficulty": "VD",
+      "matrixSlot": "P3_05",
+      "status": "approved",
+      "stem": {
+        "en": "The minimum value of $f(x) = x^2 - 4x + 7$ on $\\mathbb{R}$ is",
+        "vi": "Giá trị nhỏ nhất của $f(x) = x^2 - 4x + 7$ trên $\\mathbb{R}$ bằng"
+      },
+      "acceptedAnswers": [
+        "3"
+      ],
+      "tolerance": 0,
+      "explanation": {
+        "en": "Vertex at $x=2$, $f(2)=3$.",
+        "vi": "Đỉnh tại $x=2$, $f(2)=3$."
+      }
+    },
+    {
+      "id": "seed-p3-06",
+      "part": 3,
+      "grade": 12,
+      "topicCode": "L12_INTEGRAL",
+      "difficulty": "VD",
+      "matrixSlot": "P3_06",
+      "status": "approved",
+      "stem": {
+        "en": "$\\displaystyle \\int_1^2 \\dfrac{1}{x}\\,dx$ equals (round to 2 decimals)",
+        "vi": "$\\displaystyle \\int_1^2 \\dfrac{1}{x}\\,dx$ bằng (làm tròn 2 chữ số thập phân)"
+      },
+      "acceptedAnswers": [
+        "0.69"
+      ],
+      "tolerance": 0.01,
+      "explanation": {
+        "en": "$\\ln 2 \\approx 0.69$.",
+        "vi": "$\\ln 2 \\approx 0{,}69$."
+      }
+    }
+  ]
+}
