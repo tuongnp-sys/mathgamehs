@@ -344,6 +344,39 @@ body.portal-mode .exam-panel-quest .exam-body {
   margin: 0;
 }
 
+.world-hub-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.beta-badge {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 0.22rem 0.45rem;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #fbbf24, #f59e0b);
+  color: #1c1917;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+
+.beta-notice {
+  margin: 0 0 0.85rem;
+  padding: 0.4rem 0.55rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--muted);
+  background: rgba(245, 158, 11, 0.12);
+  border-left: 3px solid #f59e0b;
+  border-radius: 0 4px 4px 0;
+}
+
 .world-map {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

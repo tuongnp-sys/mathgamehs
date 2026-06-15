@@ -65,10 +65,13 @@ export function renderWorldHub(root, opts) {
   root.innerHTML = `
     <div class="panel world-hub-panel">
       <div class="world-hub-header">
-        <h2 class="screen-title">${typeof __GAME_TITLE__ !== 'undefined' ? __GAME_TITLE__ : 'MathGameHS'}</h2>
+        <div class="world-hub-title-row">
+          <h2 class="screen-title">${typeof __GAME_TITLE__ !== 'undefined' ? __GAME_TITLE__ : 'MathGameHS'}</h2>
+          <span class="beta-badge" aria-label="${t('betaBadge')}">${t('betaBadge')}</span>
+        </div>
         ${unifiedLangButtonHtml(contentLang, 'btn-hub-lang')}
       </div>
-      <p class="screen-sub">${t('worldHubSub')}</p>
+      <p class="beta-notice">${t('betaNotice')}</p>
       <div class="world-map world-map-led">${zones}</div>
       <div class="world-envelope-wrap">${envelopeHtml}</div>
       <div class="world-hub-actions">
