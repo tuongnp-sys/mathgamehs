@@ -1,0 +1,71 @@
+{
+  "slotCode": "P2_04",
+  "order": 16,
+  "part": 2,
+  "grade": 12,
+  "topicCode": "L12_PROB_COND",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Xác suất có điều kiện — vận dụng",
+    "en": "Conditional probability — application"
+  },
+  "bankQuestionIds": [
+    "seed-p2-04",
+    "bank-p2-04-b02",
+    "bank-p2-04-b03",
+    "bank-p2-04-b04",
+    "bank-p2-04-b05",
+    "bank-p2-04-b06",
+    "bank-p2-04-b07",
+    "bank-p2-04-b08",
+    "bank-p2-04-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q14",
+      "note": "AI sàng lọc bệnh — bank-p2-04-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q16",
+      "note": "Tin nhắn quảng cáo — bank-p2-04-b03"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q15",
+      "note": "Xác suất có điều kiện — đề 2025"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p2-04-b04",
+      "bank-p2-04-b05"
+    ],
+    "notes": {
+      "bank-p2-04-b04": "2 đỏ, 3 xanh — rút không hoàn lại",
+      "bank-p2-04-b05": "Xét nghiệm sàng lọc 10% bệnh"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p2-04-b06",
+      "bank-p2-04-b07"
+    ],
+    "notes": {
+      "bank-p2-04-b06": "batch3 variant",
+      "bank-p2-04-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p2-04-b08",
+      "bank-p2-04-b09"
+    ],
+    "notes": {
+      "bank-p2-04-b08": "3 đỏ 2 xanh, P(cả hai đỏ)=3/10",
+      "bank-p2-04-b09": "Sàng lọc 8% bệnh, Bayes"
+    }
+  }
+}

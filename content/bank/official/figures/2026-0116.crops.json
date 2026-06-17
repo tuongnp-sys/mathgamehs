@@ -1,0 +1,17 @@
+{
+  "slug": "2026-0116",
+  "examJson": "content/bank/official/2026-0116.json",
+  "pageDir": "public/assets/exams/2026-0116",
+  "outDir": "public/assets/exams/2026-0116/figures",
+  "imagePathPrefix": "/assets/exams/2026-0116/figures",
+  "imageField": "examFigure",
+  "figures": [
+    { "id": "off26-0116-q06", "page": "page-01.png", "x": 220, "y": 655, "w": 720, "h": 100 },
+    { "id": "off26-0116-q07", "page": "page-01.png", "x": 62, "y": 862, "w": 1090, "h": 155 },
+    { "id": "off26-0116-q09", "page": "page-01.png", "x": 420, "y": 1078, "w": 360, "h": 165 },
+    { "id": "off26-0116-q18", "page": "page-03.png", "x": 62, "y": 555, "w": 880, "h": 145 },
+    { "id": "off26-0116-q19", "page": "page-03.png", "x": 200, "y": 985, "w": 720, "h": 300 },
+    { "id": "off26-0116-q21", "page": "page-04.png", "x": 28, "y": 175, "w": 1165, "h": 168 },
+    { "id": "off26-0116-q22", "page": "page-04.png", "x": 175, "y": 555, "w": 760, "h": 400 }
+  ]
+}

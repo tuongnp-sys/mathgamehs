@@ -1,0 +1,35 @@
+{
+  "slug": "2026-0116",
+  "source": "2026-0116.crops.json",
+  "field": "examFigure",
+  "figures": [
+    {
+      "id": "off26-0116-q06",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q06.png"
+    },
+    {
+      "id": "off26-0116-q07",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q07.png"
+    },
+    {
+      "id": "off26-0116-q09",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q09.png"
+    },
+    {
+      "id": "off26-0116-q18",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q18.png"
+    },
+    {
+      "id": "off26-0116-q19",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q19.png"
+    },
+    {
+      "id": "off26-0116-q21",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q21.png"
+    },
+    {
+      "id": "off26-0116-q22",
+      "examFigure": "/assets/exams/2026-0116/figures/off26-0116-q22.png"
+    }
+  ]
+}

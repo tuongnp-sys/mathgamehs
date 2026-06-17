@@ -1,0 +1,66 @@
+{
+  "slotCode": "P2_01",
+  "order": 13,
+  "part": 2,
+  "grade": 12,
+  "topicCode": "L12_CALC",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Khảo sát hàm số — vận dụng",
+    "en": "Function analysis — application"
+  },
+  "bankQuestionIds": [
+    "seed-p2-01",
+    "bank-p2-01-b02",
+    "bank-p2-01-b03",
+    "bank-p2-01-b04",
+    "bank-p2-01-b05",
+    "bank-p2-01-b06",
+    "bank-p2-01-b07",
+    "bank-p2-01-b08",
+    "bank-p2-01-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q13",
+      "note": "f(x)=⅓x³−2x²+3x+8 — bank-p2-01-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q13",
+      "note": "f(x)=x³−12x−8 — bank-p2-01-b03"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p2-01-b04",
+      "bank-p2-01-b05"
+    ],
+    "notes": {
+      "bank-p2-01-b04": "f(x)=x³−6x²+9x+1 — khảo sát",
+      "bank-p2-01-b05": "f(x)=−x³+3x²+1 — cực trị"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p2-01-b06",
+      "bank-p2-01-b07"
+    ],
+    "notes": {
+      "bank-p2-01-b06": "batch3 variant",
+      "bank-p2-01-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p2-01-b08",
+      "bank-p2-01-b09"
+    ],
+    "notes": {
+      "bank-p2-01-b08": "f(x)=2x³-6x, cực trị và đồng biến",
+      "bank-p2-01-b09": "f(x)=-x²+6x-5, GTLN=4 tại x=3"
+    }
+  }
+}

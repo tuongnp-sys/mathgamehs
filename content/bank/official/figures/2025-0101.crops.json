@@ -1,0 +1,16 @@
+{
+  "slug": "2025-de-dapan",
+  "examJson": "content/bank/official/2025-0101.json",
+  "pageDir": "public/assets/exams/2025-de-dapan",
+  "outDir": "public/assets/exams/2025-de-dapan/figures",
+  "imagePathPrefix": "/assets/exams/2025-de-dapan/figures",
+  "imageField": "examFigure",
+  "figures": [
+    { "id": "off25-0101-q01", "page": "page-01.png", "x": 250, "y": 430, "w": 700, "h": 210 },
+    { "id": "off25-0101-q02", "page": "page-01.png", "x": 250, "y": 630, "w": 700, "h": 200 },
+    { "id": "off25-0101-q03", "page": "page-01.png", "x": 60, "y": 795, "w": 1060, "h": 125 },
+    { "id": "off25-0101-q11", "page": "page-02.png", "x": 300, "y": 735, "w": 590, "h": 220 },
+    { "id": "off25-0101-q17", "page": "page-03.png", "x": 580, "y": 1095, "w": 500, "h": 200 },
+    { "id": "off25-0101-q22", "page": "page-04.png", "x": 25, "y": 335, "w": 1140, "h": 175 }
+  ]
+}

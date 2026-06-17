@@ -1,0 +1,61 @@
+{
+  "slotCode": "P1_10",
+  "order": 10,
+  "part": 1,
+  "grade": 12,
+  "topicCode": "L12_OXYZ",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Oxyz — khoảng cách đến gốc",
+    "en": "Oxyz — distance to origin"
+  },
+  "bankQuestionIds": [
+    "seed-p1-10",
+    "bank-p1-10-b02",
+    "bank-p1-10-b03",
+    "bank-p1-10-b04",
+    "bank-p1-10-b05",
+    "bank-p1-10-b06",
+    "bank-p1-10-b07",
+    "bank-p1-10-b08",
+    "bank-p1-10-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q01",
+      "note": "Vectơ AB — bank-p1-10-b02"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-10-b04",
+      "bank-p1-10-b05"
+    ],
+    "notes": {
+      "bank-p1-10-b04": "P(1;2;0) → √5 — z=0",
+      "bank-p1-10-b05": "Q(2;3;6) → 7 — √(4+9+36)"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-10-b06",
+      "bank-p1-10-b07"
+    ],
+    "notes": {
+      "bank-p1-10-b06": "batch3 variant",
+      "bank-p1-10-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-10-b08",
+      "bank-p1-10-b09"
+    ],
+    "notes": {
+      "bank-p1-10-b08": "Khoảng cách M(1;2;2) đến O = 3",
+      "bank-p1-10-b09": "Khoảng cách N(3;0;4) đến O = 5"
+    }
+  }
+}

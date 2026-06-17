@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 308" width="250" height="308" role="img" aria-hidden="true">
+<line x1="124.99" y1="168.00" x2="221.98" y2="224.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="221.98" y1="224.00" x2="124.99" y2="280.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="124.99" y1="280.00" x2="28.00" y2="224.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="28.00" y1="224.00" x2="124.99" y2="168.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="124.99" y1="28.00" x2="221.98" y2="84.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="221.98" y1="84.00" x2="124.99" y2="140.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="124.99" y1="140.00" x2="28.00" y2="84.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="28.00" y1="84.00" x2="124.99" y2="28.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="124.99" y1="168.00" x2="124.99" y2="28.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="221.98" y1="224.00" x2="221.98" y2="84.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="124.99" y1="280.00" x2="124.99" y2="140.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="28.00" y1="224.00" x2="28.00" y2="84.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<text x="114.99" y="176.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">A</text>
+<text x="231.98" y="232.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">B</text>
+<text x="134.99" y="274.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">C</text>
+<text x="18.00" y="218.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">D</text>
+<text x="112.99" y="20.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">A'</text>
+<text x="233.98" y="76.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">B'</text>
+<text x="136.99" y="146.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">C'</text>
+<text x="16.00" y="90.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">D'</text>
+</svg>

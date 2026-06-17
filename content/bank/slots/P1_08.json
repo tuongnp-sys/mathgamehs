@@ -1,0 +1,66 @@
+{
+  "slotCode": "P1_08",
+  "order": 8,
+  "part": 1,
+  "grade": 12,
+  "topicCode": "L12_INTEGRAL",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Tích phân — thông hiểu",
+    "en": "Integration — comprehension"
+  },
+  "bankQuestionIds": [
+    "seed-p1-08",
+    "bank-p1-08-b02",
+    "bank-p1-08-b03",
+    "bank-p1-08-b04",
+    "bank-p1-08-b05",
+    "bank-p1-08-b06",
+    "bank-p1-08-b07",
+    "bank-p1-08-b08",
+    "bank-p1-08-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q03",
+      "note": "Nguyên hàm F(x)=5x³ — bank-p1-08-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q05",
+      "note": "Họ nguyên hàm x² — bank-p1-08-b03"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-08-b04",
+      "bank-p1-08-b05"
+    ],
+    "notes": {
+      "bank-p1-08-b04": "Tích phân xác định ∫₁² 2x dx — biến thể sau seed",
+      "bank-p1-08-b05": "Họ nguyên hàm 3x² — hệ số sau b03"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-08-b06",
+      "bank-p1-08-b07"
+    ],
+    "notes": {
+      "bank-p1-08-b06": "batch3 variant",
+      "bank-p1-08-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-08-b08",
+      "bank-p1-08-b09"
+    ],
+    "notes": {
+      "bank-p1-08-b08": "Nguyên hàm x³ = x⁴/4 + C",
+      "bank-p1-08-b09": "∫₀²(3x+1)dx = 8"
+    }
+  }
+}

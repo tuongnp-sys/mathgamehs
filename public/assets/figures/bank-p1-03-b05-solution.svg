@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 196" width="198" height="196" role="img" aria-hidden="true">
+<line x1="108.21" y1="120.00" x2="165.36" y2="153.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="165.36" y1="153.00" x2="32.00" y2="164.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="32.00" y1="164.00" x2="108.21" y2="120.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="108.21" y1="32.00" x2="108.21" y2="120.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="108.21" y1="32.00" x2="165.36" y2="153.00" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="108.21" y1="32.00" x2="32.00" y2="164.00" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="6 4" stroke-linecap="round"/>
+<text x="108.21" y="20.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">S</text>
+<text x="98.21" y="130.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">A</text>
+<text x="177.36" y="161.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">B</text>
+<text x="20.00" y="160.00" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-style="italic" fill="#111" text-anchor="middle" dominant-baseline="middle">C</text>
+<text x="98.21" y="76.00" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="131.79" y="145.16" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="65.10" y="133.34" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#333" text-anchor="middle" dominant-baseline="middle">4</text>
+</svg>

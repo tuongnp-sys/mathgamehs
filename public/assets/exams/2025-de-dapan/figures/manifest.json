@@ -1,0 +1,31 @@
+{
+  "slug": "2025-de-dapan",
+  "source": "2025-0101.crops.json",
+  "field": "examFigure",
+  "figures": [
+    {
+      "id": "off25-0101-q01",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q01.png"
+    },
+    {
+      "id": "off25-0101-q02",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q02.png"
+    },
+    {
+      "id": "off25-0101-q03",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q03.png"
+    },
+    {
+      "id": "off25-0101-q11",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q11.png"
+    },
+    {
+      "id": "off25-0101-q17",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q17.png"
+    },
+    {
+      "id": "off25-0101-q22",
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q22.png"
+    }
+  ]
+}

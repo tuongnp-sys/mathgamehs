@@ -67,8 +67,9 @@ export function renderExam(root, opts) {
   const examLabel = typeof exam.label === 'object' ? tx(exam.label, contentLang) : exam.label;
 
   let body = '';
-  if (q.examImage) {
-    body += `<div class="exam-paper-img"><img src="${q.examImage}" alt="" loading="lazy" /></div>`;
+  const figureSrc = questionFigureSrc(q, 'stem');
+  if (figureSrc) {
+    body += renderFigureHtml(figureSrc);
   }
   if (q.context) {
     body += `<div class="q-context">${mathHtml(tx(q.context, contentLang))}</div>`;
@@ -215,6 +216,30 @@ function renderDots(total, active) {
   return html;
 }
 
+/** @param {string} path */
+function assetUrl(path) {
+  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('/')) {
+    return path;
+  }
+  return path.replace(/^\.\//, '/');
+}
+
+/**
+ * @param {{ figureAsset?: string, solutionFigureAsset?: string, examFigure?: string }} q
+ * @param {'stem' | 'solution'} role
+ */
+function questionFigureSrc(q, role = 'stem') {
+  if (role === 'solution') {
+    return q.solutionFigureAsset || q.figureAsset || q.examFigure || null;
+  }
+  return q.figureAsset || q.examFigure || null;
+}
+
+/** @param {string} src */
+function renderFigureHtml(src) {
+  return `<div class="exam-figure-img"><img src="${assetUrl(src)}" alt="" loading="eager" /></div>`;
+}
+
 function escapeAttr(s) {
   return String(s).replace(/"/g, '&quot;');
 }
@@ -259,6 +284,38 @@ export function renderResult(root, { result, exam, contentLang, showSolutions, o
   root.querySelector('[data-menu]')?.addEventListener('click', onMenu);
 }
 
+function renderPart2SubSolutions(q, detail, contentLang, t) {
+  const userSub = /** @type {Record<string, boolean>} */ (detail.userAnswer || {});
+  const items = txSubItems(q.subItems, contentLang);
+  if (!items.length) return '';
+
+  const rows = items
+    .map((item) => {
+      const userVal = userSub[item.label];
+      const correctLabel = item.isTrue ? t('true') : t('false');
+      const userLabel =
+        userVal === true ? t('true') : userVal === false ? t('false') : '—';
+      const ok = userVal === item.isTrue;
+      const expl = item.explanation
+        ? `<p class="sub-expl">${mathHtml(item.explanation)}</p>`
+        : '';
+      return `
+        <li class="sub-solution-row ${ok ? 'ok' : 'bad'}">
+          <div class="sub-solution-head">
+            <strong>${item.label})</strong> ${mathHtml(item.statement)}
+          </div>
+          <p class="sub-solution-ans">
+            ${t('correctAnswer')}: <strong>${correctLabel}</strong>
+            ${userVal !== undefined ? ` · ${t('yourAnswer')}: ${userLabel}` : ''}
+          </p>
+          ${expl}
+        </li>`;
+    })
+    .join('');
+
+  return `<ul class="sub-solution-list">${rows}</ul>`;
+}
+
 function renderSolutionBlock(q, detail, contentLang, t) {
   let ans = '';
   if (q.part === 1) {
@@ -268,15 +325,25 @@ function renderSolutionBlock(q, detail, contentLang, t) {
   } else {
     ans = `${t('correctAnswer')}: ${mathHtml(String(detail.correctAnswer || ''))}`;
   }
-  const expl = q.explanation ? tx(q.explanation, contentLang) : '';
+  const explShort = q.explanation ? tx(q.explanation, contentLang) : '';
+  const explLong = q.explanationLong ? tx(q.explanationLong, contentLang) : '';
+  const expl = explLong || explShort;
   const wizard =
     !detail.correct
       ? wizardHintHtml(getMistakeFeedback(q, contentLang), t)
       : '';
+  const solutionFigure = questionFigureSrc(q, 'solution');
+  const contextHtml = q.context
+    ? `<div class="q-context">${mathHtml(tx(q.context, contentLang))}</div>`
+    : '';
+  const part2Subs = q.part === 2 ? renderPart2SubSolutions(q, detail, contentLang, t) : '';
   return `
     <article class="solution-card ${detail.correct ? 'ok' : 'bad'}">
+      ${solutionFigure ? renderFigureHtml(solutionFigure) : ''}
+      ${contextHtml}
       <div class="q-stem">${mathHtml(tx(q.stem, contentLang))}</div>
       <p>${ans}</p>
+      ${part2Subs}
       ${wizard}
       ${expl ? `<p class="expl">${mathHtml(expl)}</p>` : ''}
     </article>`;

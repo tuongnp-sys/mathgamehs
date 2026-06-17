@@ -1,0 +1,75 @@
+{
+  "slotCode": "P3_04",
+  "order": 20,
+  "part": 3,
+  "grade": 11,
+  "topicCode": "L11_SOLID",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Hình học không gian — thể tích nón",
+    "en": "Solid geometry — cone volume"
+  },
+  "bankQuestionIds": [
+    "seed-p3-04",
+    "bank-p3-04-b02",
+    "bank-p3-04-b03",
+    "bank-p3-04-b04",
+    "bank-p3-04-b05",
+    "bank-p3-04-b06",
+    "bank-p3-04-b07",
+    "bank-p3-04-b08",
+    "bank-p3-04-b09",
+    "bank-p3-04-b10"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q20",
+      "note": "Khoảng cách AC và SD — bank-p3-04-b10"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q17",
+      "note": "Khoảng cách P đến mặt phẳng"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p3-04-b04",
+      "bank-p3-04-b05"
+    ],
+    "notes": {
+      "bank-p3-04-b04": "r=4, h=9 → 151",
+      "bank-p3-04-b05": "r=2, h=12 → 50"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p3-04-b06",
+      "bank-p3-04-b07"
+    ],
+    "notes": {
+      "bank-p3-04-b06": "batch3 variant",
+      "bank-p3-04-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p3-04-b08",
+      "bank-p3-04-b09"
+    ],
+    "notes": {
+      "bank-p3-04-b08": "Nón r=5, h=6, V≈157",
+      "bank-p3-04-b09": "Nón r=3, h=10, V≈94"
+    }
+  },
+  "officialAnchor": {
+    "added": [
+      "bank-p3-04-b10"
+    ],
+    "notes": {
+      "bank-p3-04-b10": "official topical anchor — adapted from đề chính thức 2025/2026"
+    }
+  }
+}

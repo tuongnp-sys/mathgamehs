@@ -1,0 +1,71 @@
+{
+  "slotCode": "P1_02",
+  "order": 2,
+  "part": 1,
+  "grade": 11,
+  "topicCode": "L11_SEQ",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Dãy số — thông hiểu",
+    "en": "Sequences — comprehension"
+  },
+  "bankQuestionIds": [
+    "seed-p1-02",
+    "bank-p1-02-b02",
+    "bank-p1-02-b03",
+    "bank-p1-02-b04",
+    "bank-p1-02-b05",
+    "bank-p1-02-b06",
+    "bank-p1-02-b07",
+    "bank-p1-02-b08",
+    "bank-p1-02-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q06",
+      "note": "CSC u_5 — bank-p1-02-b02"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q02",
+      "note": "CSN u_3 — bank-p1-02-b03"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q04",
+      "note": "CSC u_2 — bank-p1-02-b04"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-02-b04",
+      "bank-p1-02-b05"
+    ],
+    "notes": {
+      "bank-p1-02-b04": "Cấp số cộng u_2 — adapt đề 2026 câu 4",
+      "bank-p1-02-b05": "Cấp số nhân u_4 số cụ thể — bổ sung sau b03 (công thức)"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-02-b06",
+      "bank-p1-02-b07"
+    ],
+    "notes": {
+      "bank-p1-02-b06": "batch3 variant",
+      "bank-p1-02-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-02-b08",
+      "bank-p1-02-b09"
+    ],
+    "notes": {
+      "bank-p1-02-b08": "CSC u1=3, d=2, u5=11",
+      "bank-p1-02-b09": "CSN u1=2, q=3, u5=162"
+    }
+  }
+}

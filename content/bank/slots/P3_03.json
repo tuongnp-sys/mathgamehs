@@ -1,0 +1,80 @@
+{
+  "slotCode": "P3_03",
+  "order": 19,
+  "part": 3,
+  "grade": 11,
+  "topicCode": "L11_PROB",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Xác suất — xúc xắc",
+    "en": "Probability — dice"
+  },
+  "bankQuestionIds": [
+    "seed-p3-03",
+    "bank-p3-03-b02",
+    "bank-p3-03-b03",
+    "bank-p3-03-b04",
+    "bank-p3-03-b05",
+    "bank-p3-03-b06",
+    "bank-p3-03-b07",
+    "bank-p3-03-b08",
+    "bank-p3-03-b09",
+    "bank-p3-03-b10"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q17",
+      "note": "Xác suất giải mật thư — tham chiếu đề gốc"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q19",
+      "note": "Xác suất bóng đèn đa giác"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q11",
+      "note": "P(AB) độc lập — bank-p3-03-b10"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p3-03-b04",
+      "bank-p3-03-b05"
+    ],
+    "notes": {
+      "bank-p3-03-b04": "P(lẻ) = 0,5",
+      "bank-p3-03-b05": "Hai xúc xắc, tổng 8 → 5/36"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p3-03-b06",
+      "bank-p3-03-b07"
+    ],
+    "notes": {
+      "bank-p3-03-b06": "batch3 variant",
+      "bank-p3-03-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p3-03-b08",
+      "bank-p3-03-b09"
+    ],
+    "notes": {
+      "bank-p3-03-b08": "Xúc xắc, P(mặt ≤2)=1/3",
+      "bank-p3-03-b09": "Hai xúc xắc, P(tổng=10)=1/12"
+    }
+  },
+  "officialAnchor": {
+    "added": [
+      "bank-p3-03-b10"
+    ],
+    "notes": {
+      "bank-p3-03-b10": "official topical anchor — adapted from đề chính thức 2025/2026"
+    }
+  }
+}

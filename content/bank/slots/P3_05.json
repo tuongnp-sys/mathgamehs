@@ -1,0 +1,75 @@
+{
+  "slotCode": "P3_05",
+  "order": 21,
+  "part": 3,
+  "grade": 12,
+  "topicCode": "L12_CALC",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Cực trị hàm bậc hai — vận dụng",
+    "en": "Quadratic extrema — application"
+  },
+  "bankQuestionIds": [
+    "seed-p3-05",
+    "bank-p3-05-b02",
+    "bank-p3-05-b03",
+    "bank-p3-05-b04",
+    "bank-p3-05-b05",
+    "bank-p3-05-b06",
+    "bank-p3-05-b07",
+    "bank-p3-05-b08",
+    "bank-p3-05-b09",
+    "bank-p3-05-b10"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q18",
+      "note": "Lợi nhuận doanh nghiệp — bank-p3-05-b10"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q20",
+      "note": "Lợi nhuận tối đa C(x), R(x)"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p3-05-b04",
+      "bank-p3-05-b05"
+    ],
+    "notes": {
+      "bank-p3-05-b04": "x²−2x+5 → GTNN 4",
+      "bank-p3-05-b05": "x²−10x+26 → GTNN 1"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p3-05-b06",
+      "bank-p3-05-b07"
+    ],
+    "notes": {
+      "bank-p3-05-b06": "batch3 variant",
+      "bank-p3-05-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p3-05-b08",
+      "bank-p3-05-b09"
+    ],
+    "notes": {
+      "bank-p3-05-b08": "GTNN x²-8x+10, f(4)=-6",
+      "bank-p3-05-b09": "GTNN 2x²-4x+1, f(1)=-1"
+    }
+  },
+  "officialAnchor": {
+    "added": [
+      "bank-p3-05-b10"
+    ],
+    "notes": {
+      "bank-p3-05-b10": "official topical anchor — adapted from đề chính thức 2025/2026"
+    }
+  }
+}

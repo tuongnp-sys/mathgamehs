@@ -4,3 +4,5 @@
 #   2026/Bai-giai-toan-2026-ma-de-0116.pdf  (lời giải tham khảo)
 #
 # Extract page images: npm run extract:exam-pages
+# Crop figure-only PNGs: npm run crop:official
+# Tune regions in content/bank/official/figures/*.crops.json

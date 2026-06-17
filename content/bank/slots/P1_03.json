@@ -1,0 +1,80 @@
+{
+  "slotCode": "P1_03",
+  "order": 3,
+  "part": 1,
+  "grade": 11,
+  "topicCode": "L11_SOLID",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Hình học không gian — thông hiểu",
+    "en": "Solid geometry — comprehension"
+  },
+  "bankQuestionIds": [
+    "seed-p1-03",
+    "bank-p1-03-b02",
+    "bank-p1-03-b03",
+    "bank-p1-03-b04",
+    "bank-p1-03-b05",
+    "bank-p1-03-b06",
+    "bank-p1-03-b07",
+    "bank-p1-03-b08",
+    "bank-p1-03-b09"
+  ],
+  "figureTemplates": [
+    "rightPrism",
+    "pyramid"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q01",
+      "note": "Lăng trụ vectơ — chủ đề solid"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q02",
+      "note": "Hình hộp song song mặt phẳng"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q12",
+      "note": "Thể tích chóp — bank-p1-03-b03"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q09",
+      "note": "Hình lập phương vectơ — solid"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-03-b04",
+      "bank-p1-03-b05"
+    ],
+    "notes": {
+      "bank-p1-03-b04": "Lăng trụ đứng 6×4 — biến thể số sau b02",
+      "bank-p1-03-b05": "Chóp S.ABC biến thể số — sau b03"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-03-b06",
+      "bank-p1-03-b07"
+    ],
+    "notes": {
+      "bank-p1-03-b06": "batch3 variant",
+      "bank-p1-03-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-03-b08",
+      "bank-p1-03-b09"
+    ],
+    "notes": {
+      "bank-p1-03-b08": "Lăng trụ vuông cạnh 5, h=4, V=100",
+      "bank-p1-03-b09": "Chóp tam giác vuông AB=3, AC=4, SA=5, V=10"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slotCode": "P2_02",
+  "order": 14,
+  "part": 2,
+  "grade": 12,
+  "topicCode": "L12_INTEGRAL",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Tích phân — vận dụng",
+    "en": "Integration — application"
+  },
+  "bankQuestionIds": [
+    "seed-p2-02",
+    "bank-p2-02-b02",
+    "bank-p2-02-b03",
+    "bank-p2-02-b04",
+    "bank-p2-02-b05",
+    "bank-p2-02-b06",
+    "bank-p2-02-b07",
+    "bank-p2-02-b08",
+    "bank-p2-02-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q16",
+      "note": "Pin mặt trời F'(t) — bank-p2-02-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q14",
+      "note": "Nồng độ thuốc y'=ky"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p2-02-b04",
+      "bank-p2-02-b05"
+    ],
+    "notes": {
+      "bank-p2-02-b04": "∫₀¹ (2x+3) dx",
+      "bank-p2-02-b05": "∫₁⁴ x dx + giá trị trung bình"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p2-02-b06",
+      "bank-p2-02-b07"
+    ],
+    "notes": {
+      "bank-p2-02-b06": "batch3 variant",
+      "bank-p2-02-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p2-02-b08",
+      "bank-p2-02-b09"
+    ],
+    "notes": {
+      "bank-p2-02-b08": "∫₀¹(x+2)dx = 2,5",
+      "bank-p2-02-b09": "∫₁⁴ x dx = 15/2, TB = 5/2"
+    }
+  }
+}

@@ -11,17 +11,14 @@ import { REGIONS } from '../app/quest-regions.js';
 export function renderWorldHub(root, opts) {
   const {
     stats,
-    officialExams,
     contentLang,
     questEnvelope,
     onOpenEnvelope,
     onFullExam,
     onResumeQuest,
-    onOfficial,
     onNotebook,
     onToggleLang,
     t,
-    tx: txUi,
   } = opts;
 
   const envelopeOpened = !!questEnvelope?.opened;
@@ -46,13 +43,6 @@ export function renderWorldHub(root, opts) {
       </span>
     </div>`;
   }).join('');
-
-  const officialHtml = (officialExams || [])
-    .map(
-      (ex) =>
-        `<button type="button" class="btn btn-sm btn-official" data-official="${ex.id}">${txUi(ex.title, contentLang)}</button>`
-    )
-    .join('');
 
   const envelopeHtml = renderQuestEnvelopeHtml({
     opened: envelopeOpened,
@@ -88,7 +78,6 @@ export function renderWorldHub(root, opts) {
       </div>
       <div class="world-hub-secondary">
         <span class="world-hub-sec-label">${t('worldHubMore')}</span>
-        <div class="world-hub-sec-btns">${officialHtml}</div>
         <div class="world-hub-sec-btns">
           <button type="button" class="btn btn-sm btn-accent" data-action="notebook">${t('mistakeNotebook')}</button>
         </div>
@@ -108,8 +97,5 @@ export function renderWorldHub(root, opts) {
     if (envelopeOpened) onFullExam();
   });
   root.querySelector('[data-action="resume"]')?.addEventListener('click', onResumeQuest);
-  root.querySelectorAll('[data-official]').forEach((btn) => {
-    btn.addEventListener('click', () => onOfficial(btn.getAttribute('data-official')));
-  });
   root.querySelector('[data-action="notebook"]')?.addEventListener('click', onNotebook);
 }

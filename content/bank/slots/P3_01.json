@@ -1,0 +1,75 @@
+{
+  "slotCode": "P3_01",
+  "order": 17,
+  "part": 3,
+  "grade": 10,
+  "topicCode": "L10_LINEAR_PROG",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Quy hoạch tuyến tính — vận dụng",
+    "en": "Linear programming — application"
+  },
+  "bankQuestionIds": [
+    "seed-p3-01",
+    "bank-p3-01-b02",
+    "bank-p3-01-b03",
+    "bank-p3-01-b04",
+    "bank-p3-01-b05",
+    "bank-p3-01-b06",
+    "bank-p3-01-b07",
+    "bank-p3-01-b08",
+    "bank-p3-01-b09",
+    "bank-p3-01-b10"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q19",
+      "note": "QHTT chanh/khoai — bank-p3-01-b10"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q18",
+      "note": "Doanh thu rau củ — đề 2026"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p3-01-b04",
+      "bank-p3-01-b05"
+    ],
+    "notes": {
+      "bank-p3-01-b04": "T=3x+y, x+y≤5 → 15",
+      "bank-p3-01-b05": "T=x+2y, 2x+y≤10 → 20"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p3-01-b06",
+      "bank-p3-01-b07"
+    ],
+    "notes": {
+      "bank-p3-01-b06": "batch3 variant",
+      "bank-p3-01-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p3-01-b08",
+      "bank-p3-01-b09"
+    ],
+    "notes": {
+      "bank-p3-01-b08": "QHTT max T=4x+y, GTLN=32",
+      "bank-p3-01-b09": "QHTT max T=2x+5y, GTLN=25"
+    }
+  },
+  "officialAnchor": {
+    "added": [
+      "bank-p3-01-b10"
+    ],
+    "notes": {
+      "bank-p3-01-b10": "official topical anchor — adapted from đề chính thức 2025/2026"
+    }
+  }
+}

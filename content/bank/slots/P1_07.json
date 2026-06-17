@@ -1,0 +1,66 @@
+{
+  "slotCode": "P1_07",
+  "order": 7,
+  "part": 1,
+  "grade": 12,
+  "topicCode": "L12_CALC",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Đạo hàm — thông hiểu",
+    "en": "Derivatives — comprehension"
+  },
+  "bankQuestionIds": [
+    "seed-p1-07",
+    "bank-p1-07-b02",
+    "bank-p1-07-b03",
+    "bank-p1-07-b04",
+    "bank-p1-07-b05",
+    "bank-p1-07-b06",
+    "bank-p1-07-b07",
+    "bank-p1-07-b08",
+    "bank-p1-07-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q10",
+      "note": "Đạo hàm tổng — bank-p1-07-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q11",
+      "note": "Tiệm cận hàm hữu tỉ"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-07-b04",
+      "bank-p1-07-b05"
+    ],
+    "notes": {
+      "bank-p1-07-b04": "Đạo hàm đa thức bậc 2 + hằng số",
+      "bank-p1-07-b05": "Đạo hàm ax² − bx — hệ số và hạng bậc 1"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-07-b06",
+      "bank-p1-07-b07"
+    ],
+    "notes": {
+      "bank-p1-07-b06": "batch3 variant",
+      "bank-p1-07-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-07-b08",
+      "bank-p1-07-b09"
+    ],
+    "notes": {
+      "bank-p1-07-b08": "Đạo hàm x²+5x = 2x+5",
+      "bank-p1-07-b09": "f(x)=x²-4x+1, f'(2)=0"
+    }
+  }
+}

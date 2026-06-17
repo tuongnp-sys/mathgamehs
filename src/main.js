@@ -1,6 +1,6 @@
 import { createPlatform } from '../platform/index.js';
 import { initAudio, unlockAudio, pauseAudio, resumeAudio, playBellSound } from './audio.js';
-import { loadBank, buildExam, listOfficialExams } from './app/exam-engine.js';
+import { loadBank, buildExam } from './app/exam-engine.js';
 import { scoreExam } from './app/scoring.js';
 import {
   addMistakesFromSession,
@@ -222,7 +222,6 @@ function showMenu() {
   const session = loadQuestSession();
   renderMenu(root, {
     stats,
-    officialExams: listOfficialExams(bank),
     contentLang,
     questEnvelope: session?.envelopeOpened
       ? {
@@ -235,7 +234,6 @@ function showMenu() {
     onOpenEnvelope: () => openQuestEnvelope(),
     onFullExam: () => departToBriefing(),
     onResumeQuest: () => resumeQuest(),
-    onOfficial: (id) => startExam(id),
     onNotebook: () => showNotebook(),
     onToggleLang: handleToggleLang,
     t,

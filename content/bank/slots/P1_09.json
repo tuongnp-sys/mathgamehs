@@ -1,0 +1,66 @@
+{
+  "slotCode": "P1_09",
+  "order": 9,
+  "part": 1,
+  "grade": 12,
+  "topicCode": "L12_INTEGRAL",
+  "difficulty": "TH",
+  "label": {
+    "vi": "Tích phân lượng giác — thông hiểu",
+    "en": "Trig integrals — comprehension"
+  },
+  "bankQuestionIds": [
+    "seed-p1-09",
+    "bank-p1-09-b02",
+    "bank-p1-09-b03",
+    "bank-p1-09-b04",
+    "bank-p1-09-b05",
+    "bank-p1-09-b06",
+    "bank-p1-09-b07",
+    "bank-p1-09-b08",
+    "bank-p1-09-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q12",
+      "note": "Tích phân tổng — bank-p1-09-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q08",
+      "note": "Diện tích tích phân |2x-3|"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-09-b04",
+      "bank-p1-09-b05"
+    ],
+    "notes": {
+      "bank-p1-09-b04": "Nguyên hàm 2cos x — hệ số sau seed",
+      "bank-p1-09-b05": "Tích phân xác định ∫₀^{π/2} cos x dx"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-09-b06",
+      "bank-p1-09-b07"
+    ],
+    "notes": {
+      "bank-p1-09-b06": "batch3 variant",
+      "bank-p1-09-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-09-b08",
+      "bank-p1-09-b09"
+    ],
+    "notes": {
+      "bank-p1-09-b08": "Nguyên hàm cos x = sin x + C",
+      "bank-p1-09-b09": "∫₀^π sin x dx = 2"
+    }
+  }
+}

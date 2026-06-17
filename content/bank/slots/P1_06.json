@@ -1,0 +1,66 @@
+{
+  "slotCode": "P1_06",
+  "order": 6,
+  "part": 1,
+  "grade": 11,
+  "topicCode": "L11_STATS",
+  "difficulty": "NB",
+  "label": {
+    "vi": "Thống kê — nhận biết",
+    "en": "Statistics — recognition"
+  },
+  "bankQuestionIds": [
+    "seed-p1-06",
+    "bank-p1-06-b02",
+    "bank-p1-06-b03",
+    "bank-p1-06-b04",
+    "bank-p1-06-b05",
+    "bank-p1-06-b06",
+    "bank-p1-06-b07",
+    "bank-p1-06-b08",
+    "bank-p1-06-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q07",
+      "note": "Trung vị mẫu ghép — bank-p1-06-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q03",
+      "note": "Tứ phân vị Q_3 mẫu ghép"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-06-b04",
+      "bank-p1-06-b05"
+    ],
+    "notes": {
+      "bank-p1-06-b04": "Trung bình cộng dãy số — biến thể sau seed",
+      "bank-p1-06-b05": "Trung vị mẫu ghép nhóm n=20 — biến thể sau b02"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-06-b06",
+      "bank-p1-06-b07"
+    ],
+    "notes": {
+      "bank-p1-06-b06": "batch3 variant",
+      "bank-p1-06-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-06-b08",
+      "bank-p1-06-b09"
+    ],
+    "notes": {
+      "bank-p1-06-b08": "Trung bình 2,4,6,8 = 5",
+      "bank-p1-06-b09": "Trung vị n=18, nhóm [10;15)"
+    }
+  }
+}

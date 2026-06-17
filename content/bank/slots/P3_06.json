@@ -1,0 +1,75 @@
+{
+  "slotCode": "P3_06",
+  "order": 22,
+  "part": 3,
+  "grade": 12,
+  "topicCode": "L12_INTEGRAL",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Tích phân — vận dụng",
+    "en": "Integration — application"
+  },
+  "bankQuestionIds": [
+    "seed-p3-06",
+    "bank-p3-06-b02",
+    "bank-p3-06-b03",
+    "bank-p3-06-b04",
+    "bank-p3-06-b05",
+    "bank-p3-06-b06",
+    "bank-p3-06-b07",
+    "bank-p3-06-b08",
+    "bank-p3-06-b09",
+    "bank-p3-06-b10"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q22",
+      "note": "Thể tích chân đế (chóp cụt − cầu)"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q21",
+      "note": "Thể tích tròn xoay — bank-p3-06-b10"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p3-06-b04",
+      "bank-p3-06-b05"
+    ],
+    "notes": {
+      "bank-p3-06-b04": "∫₀¹ 2x dx = 1",
+      "bank-p3-06-b05": "∫₀¹ 4x³ dx = 1"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p3-06-b06",
+      "bank-p3-06-b07"
+    ],
+    "notes": {
+      "bank-p3-06-b06": "batch3 variant",
+      "bank-p3-06-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p3-06-b08",
+      "bank-p3-06-b09"
+    ],
+    "notes": {
+      "bank-p3-06-b08": "∫₀¹ 3x² dx = 1",
+      "bank-p3-06-b09": "∫₁² 1/x dx ≈ 0,69"
+    }
+  },
+  "officialAnchor": {
+    "added": [
+      "bank-p3-06-b10"
+    ],
+    "notes": {
+      "bank-p3-06-b10": "official topical anchor — adapted from đề chính thức 2025/2026"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slotCode": "P1_01",
+  "order": 1,
+  "part": 1,
+  "grade": 11,
+  "topicCode": "L11_TRIG",
+  "difficulty": "NB",
+  "label": {
+    "vi": "Lượng giác — nhận biết",
+    "en": "Trigonometry — recognition"
+  },
+  "bankQuestionIds": [
+    "seed-p1-01",
+    "bank-p1-01-b02",
+    "bank-p1-01-b03",
+    "bank-p1-01-b04",
+    "bank-p1-01-b05",
+    "bank-p1-01-b06",
+    "bank-p1-01-b07",
+    "bank-p1-01-b08",
+    "bank-p1-01-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q07",
+      "note": "sin x = 0 — bank-p1-01-b02"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-01-b03",
+      "bank-p1-01-b04",
+      "bank-p1-01-b05"
+    ],
+    "notes": {
+      "bank-p1-01-b03": "Góc đặc biệt cos 60° — đối cặp seed sin 30°",
+      "bank-p1-01-b04": "Tập nghiệm cos x = 0 — đối cặp b02 sin x = 0",
+      "bank-p1-01-b05": "cos 30° = √3/2 — backfill đợt 2"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-01-b06",
+      "bank-p1-01-b07"
+    ],
+    "notes": {
+      "bank-p1-01-b06": "batch3 variant",
+      "bank-p1-01-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-01-b08",
+      "bank-p1-01-b09"
+    ],
+    "notes": {
+      "bank-p1-01-b08": "sin 60° = √3/2",
+      "bank-p1-01-b09": "cos 45° = √2/2"
+    }
+  }
+}

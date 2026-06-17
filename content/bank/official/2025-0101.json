@@ -37,7 +37,6 @@
       "order": 1,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Cho hình lăng trụ $ABC.A'B'C'$. Phát biểu nào sau đây là đúng?",
         "en": "Given triangular prism $ABC.A'B'C'$. Which statement is correct?"
@@ -79,7 +78,8 @@
       "explanation": {
         "vi": "Quy tắc hình hộp: $\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$.",
         "en": "Vector addition in the prism gives $\\overrightarrow{BA}+\\overrightarrow{A'C'}=\\overrightarrow{BC}$."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q01.png"
     },
     {
       "id": "off25-0101-q02",
@@ -87,7 +87,6 @@
       "order": 2,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Cho hình hộp $ABCD.A'B'C'D'$. Đường thẳng $AB$ song song với mặt phẳng nào sau đây?",
         "en": "In parallelepiped $ABCD.A'B'C'D'$, line $AB$ is parallel to which plane?"
@@ -129,7 +128,8 @@
       "explanation": {
         "vi": "$AB \\parallel A'B'$ và $A'B'$ nằm trên mặt phẳng $(A'B'C'D')$.",
         "en": "$AB \\parallel A'B'$ lies in plane $(A'B'C'D')$."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q02.png"
     },
     {
       "id": "off25-0101-q03",
@@ -137,7 +137,6 @@
       "order": 3,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Mẫu thời lượng gọi điện (giây) có tần số $11,10,6,8,4,1$ trên các nhóm $[0;40)$, $[40;80)$, $[80;120)$, $[120;160)$, $[160;200)$, $[200;240)$. Tứ phân vị thứ ba $Q_3$ bằng",
         "en": "Grouped call durations (seconds) have frequencies $11,10,6,8,4,1$ on $[0,40)$, $[40,80)$, $[80,120)$, $[120,160)$, $[160,200)$, $[200,240)$. The third quartile $Q_3$ equals"
@@ -179,7 +178,8 @@
       "explanation": {
         "vi": "$Q_3$ thuộc nhóm $[120;160)$ và nội suy cho $135$ giây.",
         "en": "$Q_3$ lies in $[120,160)$; interpolation gives $135$ seconds."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q03.png"
     },
     {
       "id": "off25-0101-q04",
@@ -187,7 +187,6 @@
       "order": 4,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Trong $Oxyz$, đường thẳng $(d): \\dfrac{x-3}{4}=\\dfrac{y+2}{-5}=\\dfrac{z-1}{2}$. Vectơ chỉ phương của $(d)$ là",
         "en": "In $Oxyz$, line $(d): \\dfrac{x-3}{4}=\\dfrac{y+2}{-5}=\\dfrac{z-1}{2}$. A direction vector of $(d)$ is"
@@ -237,7 +236,6 @@
       "order": 5,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Họ nguyên hàm của $f(x)=x^2$ là",
         "en": "The family of antiderivatives of $f(x)=x^2$ is"
@@ -287,7 +285,6 @@
       "order": 6,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-01.png",
       "stem": {
         "vi": "Cho cấp số cộng $(u_n)$ có $u_1=4$, $d=-3$. Giá trị $u_5$ bằng",
         "en": "Arithmetic progression $(u_n)$ has $u_1=4$, $d=-3$. Find $u_5$."
@@ -337,7 +334,6 @@
       "order": 7,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Tập nghiệm của phương trình $\\sin x=0$ là",
         "en": "The solution set of $\\sin x=0$ is"
@@ -387,7 +383,6 @@
       "order": 8,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Trong mặt phẳng $Oxy$, diện tích $S$ của hình phẳng giới hạn bởi $y=2x-3$, trục hoành và $x=1, x=2$ được xác định bằng",
         "en": "In the $Oxy$ plane, the area $S$ bounded by $y=2x-3$, the $x$-axis, and $x=1, x=2$ is given by"
@@ -437,7 +432,6 @@
       "order": 9,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Trong $Oxyz$, mặt phẳng qua $A(2;1;-4)$ và có vectơ pháp tuyến $\\vec{n}=(3;2;-1)$ có phương trình",
         "en": "In $Oxyz$, the plane through $A(2,1,-4)$ with normal $\\vec{n}=(3,2,-1)$ has equation"
@@ -487,7 +481,6 @@
       "order": 10,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Nghiệm của $\\log_3(2x-1)=2$ là",
         "en": "The solution of $\\log_3(2x-1)=2$ is"
@@ -537,7 +530,6 @@
       "order": 11,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Hàm số $y=\\dfrac{ax+b}{cx+d}$ có tiệm cận ngang $y=2$ và tiệm cận đứng $x=-1$. Phương trình tiệm cận đứng là",
         "en": "Rational function $y=\\dfrac{ax+b}{cx+d}$ has horizontal asymptote $y=2$ and vertical asymptote $x=-1$. The vertical asymptote is"
@@ -579,7 +571,8 @@
       "explanation": {
         "vi": "Tiệm cận đứng là $x=-1$.",
         "en": "Vertical asymptote is $x=-1$."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q11.png"
     },
     {
       "id": "off25-0101-q12",
@@ -587,7 +580,6 @@
       "order": 12,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Cho chóp $S.ABC$ có $SA\\perp(ABC)$, tam giác $ABC$ vuông tại $A$, $SA=3$, $AB=4$, $AC=5$. Thể tích khối chóp $S.ABC$ bằng",
         "en": "Pyramid $S.ABC$ has $SA\\perp(ABC)$, right triangle $ABC$ at $A$, $SA=3$, $AB=4$, $AC=5$. Its volume equals"
@@ -637,7 +629,6 @@
       "order": 13,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-02.png",
       "stem": {
         "vi": "Cho hàm số $f(x)=x^3-12x-8$.",
         "en": "Given $f(x)=x^3-12x-8$."
@@ -699,7 +690,6 @@
       "order": 14,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
       "stem": {
         "vi": "Nồng độ thuốc tồn dư $y(t)$ (mg/l) thỏa $y'(t)=k\\cdot y(t)$, $y(6)=2$, $y(12)=1$, và $y(t)=e^{g(t)}$.",
         "en": "Residual drug concentration $y(t)$ (mg/L) satisfies $y'(t)=k\\cdot y(t)$, $y(6)=2$, $y(12)=1$, with $y(t)=e^{g(t)}$."
@@ -761,7 +751,6 @@
       "order": 15,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
       "stem": {
         "vi": "Vật chuyển động thẳng từ $A(5;5;0)$ với $v(t)=\\beta t+300$ m/s, sau $2$ s đi $604$ m. Vectơ đơn vị $\\vec{u}$ cùng hướng $\\overrightarrow{AB}$ tạo góc $60^\\circ,60^\\circ,45^\\circ$ với $\\vec{i},\\vec{j},\\vec{k}$.",
         "en": "A particle starts at $A(5,5,0)$ with speed $v(t)=\\beta t+300$ m/s and travels $604$ m in $2$ s. Unit vector $\\vec{u}$ along $\\overrightarrow{AB}$ makes angles $60^\\circ,60^\\circ,45^\\circ$ with $\\vec{i},\\vec{j},\\vec{k}$."
@@ -823,7 +812,6 @@
       "order": 16,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
       "stem": {
         "vi": "Phần mềm đánh dấu $15\\%$ tin nhắn; trong tin bị đánh dấu có $10\\%$ không phải quảng cáo; trong tin không bị đánh dấu có $5\\%$ là quảng cáo.",
         "en": "Software flags $15\\%$ of messages; among flagged messages $10\\%$ are not ads; among unflagged messages $5\\%$ are ads."
@@ -885,7 +873,6 @@
       "order": 17,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-03.png",
       "stem": {
         "vi": "Nam chọn ngẫu nhiên 6 số từ $S=\\{11,\\ldots,19\\}$ và xếp vào $A,B,C,M,N,P$ sao cho $(A,M,B)$, $(B,N,C)$, $(C,P,A)$ lần lượt là cấp số cộng. Gọi $a$ là xác suất giải mật thư. Tìm $\\dfrac{1}{a}$.",
         "en": "Nam randomly chooses 6 numbers from $S=\\{11,\\ldots,19\\}$ and places them at $A,B,C,M,N,P$ so that $(A,M,B)$, $(B,N,C)$, $(C,P,A)$ are arithmetic progressions in order. Let $a$ be the success probability. Find $\\dfrac{1}{a}$."
@@ -897,7 +884,8 @@
       "explanation": {
         "vi": "$a=\\dfrac{1}{1260}$, nên $\\dfrac{1}{a}=1260$.",
         "en": "$a=\\dfrac{1}{1260}$, so $\\dfrac{1}{a}=1260$."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q17.png"
     },
     {
       "id": "off25-0101-q18",
@@ -905,7 +893,6 @@
       "order": 18,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
       "stem": {
         "vi": "Doanh nghiệp sản xuất $x$ sản phẩm ($1\\le x\\le 4500$) với doanh thu $F(x)=-0{,}01x^2+300x$ và chi phí bình quân $G(x)=\\dfrac{30000}{x}+200$ (nghìn đồng/sản phẩm). Tìm số sản phẩm tối thiểu để lợi nhuận vượt $100$ triệu đồng.",
         "en": "A firm produces $x$ items ($1\\le x\\le 4500$) with revenue $F(x)=-0.01x^2+300x$ and average cost $G(x)=\\dfrac{30000}{x}+200$ (thousand VND/item). Find the minimum $x$ for profit exceeding $100$ million VND."
@@ -925,7 +912,6 @@
       "order": 19,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
       "stem": {
         "vi": "CLB bán nước chanh và khoai chiên. Thực đơn 1: $30$ nghìn (2 chanh, 1 khoai). Thực đơn 2: $50$ nghìn (3 chanh, 2 khoai). Tối đa $165$ cốc chanh và $100$ túi khoai. Số tiền lớn nhất thu được (nghìn đồng)?",
         "en": "A club sells lemonade and fries. Menu 1: $30$k (2 lemonade, 1 fries). Menu 2: $50$k (3 lemonade, 2 fries). At most $165$ cups and $100$ bags. Maximum revenue (thousand VND)?"
@@ -945,7 +931,6 @@
       "order": 20,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
       "stem": {
         "vi": "Chóp $S.ABCD$ có đáy hình thoi $AB=2$, $\\widehat{ABC}=60^\\circ$, $SH=\\sqrt3$ với $H$ trọng tâm tam giác $ABC$. Khoảng cách giữa $AC$ và $SD$ (làm tròn đến hàng phần trăm)?",
         "en": "Pyramid $S.ABCD$ has rhombus base $AB=2$, $\\angle ABC=60^\\circ$, height $SH=\\sqrt3$ where $H$ is centroid of $\\triangle ABC$. Distance between lines $AC$ and $SD$ (round to hundredths)?"
@@ -966,7 +951,6 @@
       "order": 21,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
       "stem": {
         "vi": "Xếp 7 quyển sách khác nhau vào 4 ngăn sao cho mỗi ngăn có ít nhất một quyển; hai cách xếp giống nhau nếu cùng số sách mỗi ngăn và cùng thứ tự trái–phải. Gọi $T$ là số cách. Tìm $\\dfrac{T}{100}$.",
         "en": "Arrange 7 distinct books into 4 shelves with at least one per shelf; arrangements match if each shelf has the same count and left-to-right order. Let $T$ be the number of arrangements. Find $\\dfrac{T}{100}$."
@@ -986,7 +970,6 @@
       "order": 22,
       "source": "official-thpt-2025-0101",
       "status": "approved",
-      "examImage": "./assets/exams/2025-de-dapan/page-04.png",
       "stem": {
         "vi": "Chân đế gồm hình chóp cụt tứ giác đều (đáy $7{,}4$ cm và $10{,}4$ cm, cao $1{,}5$ cm) trừ phần $H$ là phần cầu bán kính $5{,}8$ cm cắt bởi mặt phẳng tạo hình tròn bán kính $3{,}5$ cm. Thể tích chân đế (cm$^3$, làm tròn đến hàng phần mười)?",
         "en": "A base is a regular square frustum (bases $7.4$ cm and $10.4$ cm, height $1.5$ cm) minus spherical cap $H$ from a sphere of radius $5.8$ cm cut by a plane with circular section radius $3.5$ cm. Volume in cm$^3$ (round to tenths)?"
@@ -999,7 +982,8 @@
       "explanation": {
         "vi": "Thể tích phần còn lại $\\approx 96{,}5$ cm$^3$.",
         "en": "Remaining volume $\\approx 96.5$ cm$^3$."
-      }
+      },
+      "examFigure": "/assets/exams/2025-de-dapan/figures/off25-0101-q22.png"
     }
   ]
 }

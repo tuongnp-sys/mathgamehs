@@ -12,12 +12,8 @@ const OFFICIAL = {
 
 /** @returns {Promise<{ questions: Question[], matrix: typeof matrixData, official: typeof OFFICIAL }>} */
 export async function loadBank() {
-  const officialQuestions = [
-    ...official20260116.questions,
-    ...official20250101.questions,
-  ];
   return {
-    questions: [...seedQuestions.questions, ...officialQuestions],
+    questions: [...seedQuestions.questions],
     matrix: matrixData,
     official: OFFICIAL,
   };
@@ -91,11 +87,3 @@ export function buildExam(bank, mode) {
   };
 }
 
-export function listOfficialExams(bank) {
-  return Object.values(bank.official || {}).map((p) => ({
-    id: p.id,
-    year: p.year,
-    examCode: p.examCode,
-    title: p.title,
-  }));
-}

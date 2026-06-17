@@ -1,0 +1,61 @@
+{
+  "slotCode": "P1_12",
+  "order": 12,
+  "part": 1,
+  "grade": 12,
+  "topicCode": "L12_OXYZ",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Oxyz — vectơ pháp tuyến mặt phẳng",
+    "en": "Oxyz — plane normal vector"
+  },
+  "bankQuestionIds": [
+    "seed-p1-12",
+    "bank-p1-12-b02",
+    "bank-p1-12-b03",
+    "bank-p1-12-b04",
+    "bank-p1-12-b05",
+    "bank-p1-12-b06",
+    "bank-p1-12-b07",
+    "bank-p1-12-b08",
+    "bank-p1-12-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q09",
+      "note": "Phương trình mặt phẳng — bank-p1-12-b02"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-12-b04",
+      "bank-p1-12-b05"
+    ],
+    "notes": {
+      "bank-p1-12-b04": "x+2y-3z+5=0 → (1;2;-3)",
+      "bank-p1-12-b05": "4x-y+z-8=0 → (4;-1;1)"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-12-b06",
+      "bank-p1-12-b07"
+    ],
+    "notes": {
+      "bank-p1-12-b06": "batch3 variant",
+      "bank-p1-12-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-12-b08",
+      "bank-p1-12-b09"
+    ],
+    "notes": {
+      "bank-p1-12-b08": "Mặt phẳng 3x-y+z-5=0, n=(3;-1;1)",
+      "bank-p1-12-b09": "Mặt phẳng -x+2y+z+4=0, n=(-1;2;1)"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slotCode": "P2_03",
+  "order": 15,
+  "part": 2,
+  "grade": 12,
+  "topicCode": "L12_OXYZ",
+  "difficulty": "VD",
+  "label": {
+    "vi": "Oxyz — mặt phẳng",
+    "en": "Oxyz — planes"
+  },
+  "bankQuestionIds": [
+    "seed-p2-03",
+    "bank-p2-03-b02",
+    "bank-p2-03-b03",
+    "bank-p2-03-b04",
+    "bank-p2-03-b05",
+    "bank-p2-03-b06",
+    "bank-p2-03-b07",
+    "bank-p2-03-b08",
+    "bank-p2-03-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q09",
+      "note": "Mặt phẳng 3x+2y-z-12=0 — bank-p2-03-b02"
+    },
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q15",
+      "note": "Mặt phẳng Oxyz — đề 2026"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p2-03-b04",
+      "bank-p2-03-b05"
+    ],
+    "notes": {
+      "bank-p2-03-b04": "4x−2y+z−8=0",
+      "bank-p2-03-b05": "x−3y+2z+6=0"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p2-03-b06",
+      "bank-p2-03-b07"
+    ],
+    "notes": {
+      "bank-p2-03-b06": "batch3 variant",
+      "bank-p2-03-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p2-03-b08",
+      "bank-p2-03-b09"
+    ],
+    "notes": {
+      "bank-p2-03-b08": "Mặt phẳng x+y+z-2=0, O không thuộc",
+      "bank-p2-03-b09": "Mặt phẳng z=4 song song Oxy"
+    }
+  }
+}

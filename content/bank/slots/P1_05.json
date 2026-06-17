@@ -1,0 +1,66 @@
+{
+  "slotCode": "P1_05",
+  "order": 5,
+  "part": 1,
+  "grade": 11,
+  "topicCode": "L11_EXPLOG",
+  "difficulty": "NB",
+  "label": {
+    "vi": "Mũ và logarit — nhận biết",
+    "en": "Exponentials & logarithms — recognition"
+  },
+  "bankQuestionIds": [
+    "seed-p1-05",
+    "bank-p1-05-b02",
+    "bank-p1-05-b03",
+    "bank-p1-05-b04",
+    "bank-p1-05-b05",
+    "bank-p1-05-b06",
+    "bank-p1-05-b07",
+    "bank-p1-05-b08",
+    "bank-p1-05-b09"
+  ],
+  "officialReferences": [
+    {
+      "exam": "official-2026-0116",
+      "questionId": "off26-0116-q05",
+      "note": "log_3(3x)=2 — bank-p1-05-b02"
+    },
+    {
+      "exam": "official-2025-0101",
+      "questionId": "off25-0101-q10",
+      "note": "log_3(2x-1)=2 — bank-p1-05-b03"
+    }
+  ],
+  "batch2": {
+    "added": [
+      "bank-p1-05-b04",
+      "bank-p1-05-b05"
+    ],
+    "notes": {
+      "bank-p1-05-b04": "Phương trình mũ 2^x=16 — biến thể sau seed",
+      "bank-p1-05-b05": "log_2 x = 3 — cơ số 2, dạng log đơn giản"
+    }
+  },
+  "status": "enriched",
+  "batch3": {
+    "added": [
+      "bank-p1-05-b06",
+      "bank-p1-05-b07"
+    ],
+    "notes": {
+      "bank-p1-05-b06": "batch3 variant",
+      "bank-p1-05-b07": "batch3 variant"
+    }
+  },
+  "batch4": {
+    "added": [
+      "bank-p1-05-b08",
+      "bank-p1-05-b09"
+    ],
+    "notes": {
+      "bank-p1-05-b08": "2^x=32, x=5",
+      "bank-p1-05-b09": "log₂ x=4, x=16"
+    }
+  }
+}
