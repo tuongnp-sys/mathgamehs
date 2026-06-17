@@ -50,6 +50,8 @@
   "treasureTier_legendary": "Legendary relic",
   "questSubmitConfirm": "Submit and open the treasure?",
   "questQuitConfirm": "Pause the quest? Progress is saved to resume later.",
+  "questCancelTreasure": "Cancel treasure run",
+  "questCancelConfirm": "Cancel this run and return to the start screen? Current progress will be lost.",
   "questResumeFailed": "Could not load saved quest.",
   "statsGold": "Total gold",
   "practicePart1": "Practice Part I",

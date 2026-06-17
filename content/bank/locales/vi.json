@@ -50,6 +50,8 @@
   "treasureTier_legendary": "Cổ vật quý hiếm",
   "questSubmitConfirm": "Nộp bài và mở kho báu?",
   "questQuitConfirm": "Tạm dừng hành trình? Tiến độ được lưu để tiếp tục sau.",
+  "questCancelTreasure": "Hủy kho báu",
+  "questCancelConfirm": "Hủy hành trình này và quay về màn hình đầu? Tiến độ hiện tại sẽ mất.",
   "questResumeFailed": "Không tải được hành trình đã lưu.",
   "statsGold": "Tổng vàng",
   "practicePart1": "Luyện Phần I",

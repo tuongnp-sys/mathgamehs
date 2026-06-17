@@ -1,5 +1,6 @@
 import { regionSceneSvg } from './quest-region-art.js';
 import { unifiedLangButtonHtml } from './lang-button.js';
+import { musicToggleButtonHtml } from './music-toggle.js';
 import { renderQuestHistoryHtml } from './quest-history.js';
 import { renderQuestEnvelopeHtml, bindQuestEnvelope } from './quest-envelope.js';
 import { REGIONS } from '../app/quest-regions.js';
@@ -16,13 +17,19 @@ export function renderWorldHub(root, opts) {
     onOpenEnvelope,
     onFullExam,
     onResumeQuest,
+    onCancelTreasure,
     onNotebook,
     onToggleLang,
+    onToggleMusic,
+    musicEnabled,
     t,
   } = opts;
 
   const envelopeOpened = !!questEnvelope?.opened;
   const canResume = !!questEnvelope?.canResume;
+  const showHubMusic = envelopeOpened && !questEnvelope?.playStarted && !!onToggleMusic;
+  const musicBtn = showHubMusic ? musicToggleButtonHtml(!!musicEnabled, t, 'btn-hub-music') : '';
+  const headerTools = `<div class="screen-header-tools">${musicBtn}${unifiedLangButtonHtml(contentLang, 'btn-hub-lang')}</div>`;
 
   const zones = REGIONS.map((region) => {
     const id = region.id;
@@ -59,7 +66,7 @@ export function renderWorldHub(root, opts) {
           <h2 class="screen-title">${typeof __GAME_TITLE__ !== 'undefined' ? __GAME_TITLE__ : 'MathGameHS'}</h2>
           <span class="beta-badge" aria-label="${t('betaBadge')}">${t('betaBadge')}</span>
         </div>
-        ${unifiedLangButtonHtml(contentLang, 'btn-hub-lang')}
+        ${headerTools}
       </div>
       <p class="beta-notice">${t('betaNotice')}</p>
       <div class="world-map world-map-led">${zones}</div>
@@ -75,6 +82,7 @@ export function renderWorldHub(root, opts) {
           ${t('worldHubStart')}
         </button>
         ${!envelopeOpened ? `<p class="world-start-hint muted">${t('envelopeStartHint')}</p>` : ''}
+        ${envelopeOpened ? `<button type="button" class="btn btn-ghost btn-sm btn-cancel-treasure" data-action="cancel-treasure">${t('questCancelTreasure')}</button>` : ''}
       </div>
       <div class="world-hub-secondary">
         <span class="world-hub-sec-label">${t('worldHubMore')}</span>
@@ -92,10 +100,12 @@ export function renderWorldHub(root, opts) {
     </div>`;
 
   root.querySelector('#btn-hub-lang')?.addEventListener('click', onToggleLang);
+  root.querySelector('#btn-hub-music')?.addEventListener('click', () => onToggleMusic?.());
   bindQuestEnvelope(root, onOpenEnvelope);
   root.querySelector('[data-action="full"]')?.addEventListener('click', () => {
     if (envelopeOpened) onFullExam();
   });
   root.querySelector('[data-action="resume"]')?.addEventListener('click', onResumeQuest);
+  root.querySelector('[data-action="cancel-treasure"]')?.addEventListener('click', () => onCancelTreasure?.());
   root.querySelector('[data-action="notebook"]')?.addEventListener('click', onNotebook);
 }

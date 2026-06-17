@@ -722,6 +722,12 @@ body.portal-mode .world-zone-led-grid {
   padding: 0.75rem 1rem;
 }
 
+.btn-cancel-treasure {
+  align-self: center;
+  margin-top: 0.15rem;
+  opacity: 0.9;
+}
+
 .world-hub-secondary {
   border-top: 1px solid var(--border);
   padding-top: 0.75rem;

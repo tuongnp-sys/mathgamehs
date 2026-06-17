@@ -228,6 +228,17 @@ function syncHubBgm() {
   }
 }
 
+function cancelTreasureQuest() {
+  if (!confirm(t('questCancelConfirm'))) return;
+  stopTimer();
+  questMode = false;
+  questId = null;
+  answers = {};
+  flags = {};
+  clearQuestSession();
+  showMenu();
+}
+
 function showMenu() {
   screen = 'menu';
   lastSessionComplete = false;
@@ -245,11 +256,15 @@ function showMenu() {
           examManifestCode: session.examManifestCode,
           treasureValueUsd: session.treasureValueUsd,
           canResume: questSessionNeedsResume(session),
+          playStarted: !!session.playStarted,
         }
       : { opened: false },
+    musicEnabled: isBgmUserEnabled(),
+    onToggleMusic: handleToggleMusic,
     onOpenEnvelope: () => openQuestEnvelope(),
     onFullExam: () => departToBriefing(),
     onResumeQuest: () => resumeQuest(),
+    onCancelTreasure: () => cancelTreasureQuest(),
     onNotebook: () => showNotebook(),
     onToggleLang: handleToggleLang,
     t,

@@ -53,7 +53,7 @@ export function pauseAudio() {
 export function resumeAudio() {
   if (unlocked && ctx?.state === 'suspended') ctx.resume().catch(() => {});
   if (!bgmPausedBySystem || !currentBgm) return;
-  if (currentBgm === 'result' && !bgmUserEnabled) {
+  if (!bgmUserEnabled) {
     bgmPausedBySystem = false;
     return;
   }
@@ -87,8 +87,8 @@ export function playBellSound() {
 /** @param {BgmTrack} track */
 export function playBgm(track) {
   if (!unlocked) return;
-  if (track === 'result' && !bgmUserEnabled) {
-    currentBgm = 'result';
+  if (!bgmUserEnabled) {
+    currentBgm = track;
     return;
   }
   const src = BGM_SRC[track];
@@ -130,10 +130,10 @@ export function isBgmUserEnabled() {
 export function setBgmUserEnabled(enabled) {
   bgmUserEnabled = enabled;
   if (!enabled) {
-    if (currentBgm === 'result' && bgmEl) bgmEl.pause();
+    if (currentBgm && bgmEl) bgmEl.pause();
     return;
   }
-  if (currentBgm === 'result' && unlocked) {
-    playBgm('result');
+  if (currentBgm && unlocked) {
+    playBgm(currentBgm);
   }
 }
