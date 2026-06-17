@@ -1,5 +1,28 @@
+/** @typedef {'hub' | 'result'} BgmTrack */
+
+const BGM_SRC = {
+  hub: './assets/audio/hub-upbeat.mp3',
+  result: './assets/audio/result-calm.mp3',
+};
+
 let ctx = null;
 let unlocked = false;
+/** @type {HTMLAudioElement | null} */
+let bgmEl = null;
+/** @type {BgmTrack | null} */
+let currentBgm = null;
+let bgmUserEnabled = true;
+let bgmPausedBySystem = false;
+
+function getBgmEl() {
+  if (!bgmEl) {
+    bgmEl = new Audio();
+    bgmEl.loop = true;
+    bgmEl.preload = 'auto';
+    bgmEl.volume = 0.42;
+  }
+  return bgmEl;
+}
 
 export function initAudio() {
   try {
@@ -11,8 +34,8 @@ export function initAudio() {
 }
 
 export function unlockAudio() {
-  if (!ctx || unlocked) return;
   unlocked = true;
+  if (!ctx) return;
   if (ctx.state === 'suspended') {
     ctx.resume().catch(() => {});
   }
@@ -20,10 +43,25 @@ export function unlockAudio() {
 
 export function pauseAudio() {
   if (ctx?.state === 'running') ctx.suspend().catch(() => {});
+  const el = bgmEl;
+  if (el && !el.paused) {
+    el.pause();
+    bgmPausedBySystem = true;
+  }
 }
 
 export function resumeAudio() {
   if (unlocked && ctx?.state === 'suspended') ctx.resume().catch(() => {});
+  if (!bgmPausedBySystem || !currentBgm) return;
+  if (currentBgm === 'result' && !bgmUserEnabled) {
+    bgmPausedBySystem = false;
+    return;
+  }
+  const el = bgmEl;
+  if (el && el.paused) {
+    el.play().catch(() => {});
+  }
+  bgmPausedBySystem = false;
 }
 
 export function playBellSound() {
@@ -43,5 +81,59 @@ export function playBellSound() {
     osc.stop(now + 0.65);
   } catch {
     /* ignore */
+  }
+}
+
+/** @param {BgmTrack} track */
+export function playBgm(track) {
+  if (!unlocked) return;
+  if (track === 'result' && !bgmUserEnabled) {
+    currentBgm = 'result';
+    return;
+  }
+  const src = BGM_SRC[track];
+  if (!src) return;
+
+  const el = getBgmEl();
+  if (currentBgm === track && !el.paused && !bgmPausedBySystem) return;
+
+  if (currentBgm !== track) {
+    el.pause();
+    el.currentTime = 0;
+    el.src = src;
+    currentBgm = track;
+  }
+
+  bgmPausedBySystem = false;
+  el.play().catch(() => {});
+}
+
+export function stopBgm() {
+  const el = bgmEl;
+  if (el) {
+    el.pause();
+    el.currentTime = 0;
+  }
+  currentBgm = null;
+  bgmPausedBySystem = false;
+}
+
+export function resetBgmUserPreference() {
+  bgmUserEnabled = true;
+}
+
+export function isBgmUserEnabled() {
+  return bgmUserEnabled;
+}
+
+/** @param {boolean} enabled */
+export function setBgmUserEnabled(enabled) {
+  bgmUserEnabled = enabled;
+  if (!enabled) {
+    if (currentBgm === 'result' && bgmEl) bgmEl.pause();
+    return;
+  }
+  if (currentBgm === 'result' && unlocked) {
+    playBgm('result');
   }
 }

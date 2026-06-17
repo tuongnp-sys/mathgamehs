@@ -177,7 +177,8 @@
 }
 
 .brief-header,
-.treasure-header {
+.treasure-header,
+.result-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -185,8 +186,23 @@
 }
 
 .brief-header .screen-title,
-.treasure-header .screen-title {
+.treasure-header .screen-title,
+.result-header .screen-title {
   margin: 0;
+}
+
+.screen-header-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.btn-music-toggle {
+  min-width: 2.5rem;
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: 0.35rem 0.5rem;
 }
 
 .quest-briefing-panel .brief-regions {

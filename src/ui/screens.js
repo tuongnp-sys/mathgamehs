@@ -3,6 +3,7 @@ import { tx, txOptions, txSubItems } from '../app/content-text.js';
 import { renderQuestTrailHtml, bindQuestTrail, spawnGoldFloat } from './quest-trail.js';
 import { firstIndexInRegion } from '../app/quest-regions.js';
 import { unifiedLangButtonHtml } from './lang-button.js';
+import { musicToggleButtonHtml } from './music-toggle.js';
 import { renderWorldHub } from './world-hub.js';
 import { getMistakeFeedback } from '../app/mistake-feedback.js';
 import { wizardHintHtml } from './wizard-panel.js';
@@ -244,7 +245,7 @@ function escapeAttr(s) {
   return String(s).replace(/"/g, '&quot;');
 }
 
-export function renderResult(root, { result, exam, contentLang, showSolutions, onReview, onNotebook, onNewExam, onMenu, t }) {
+export function renderResult(root, { result, exam, contentLang, showSolutions, musicEnabled = true, onToggleMusic, onReview, onNotebook, onNewExam, onMenu, t }) {
   const wrong = result.details.filter((d) => !d.correct);
   let list = '';
   if (showSolutions) {
@@ -257,9 +258,14 @@ export function renderResult(root, { result, exam, contentLang, showSolutions, o
     list = `<p class="muted">${wrong.length} ${t('incorrectCount')}</p>`;
   }
 
+  const musicBtn = onToggleMusic ? musicToggleButtonHtml(musicEnabled, t, 'btn-result-music') : '';
+
   root.innerHTML = `
     <div class="panel result-panel">
-      <h2 class="screen-title">${t('resultTitle')}</h2>
+      <div class="result-header">
+        <h2 class="screen-title">${t('resultTitle')}</h2>
+        ${musicBtn ? `<div class="screen-header-tools">${musicBtn}</div>` : ''}
+      </div>
       ${result.timedOut ? `<p class="warn">${t('timedOut')}</p>` : ''}
       <div class="score-grid">
         <div class="score-main">${t('scoreTotal')}: <strong>${result.total}</strong>/10</div>
@@ -278,6 +284,7 @@ export function renderResult(root, { result, exam, contentLang, showSolutions, o
       </div>
     </div>
   `;
+  root.querySelector('#btn-result-music')?.addEventListener('click', () => onToggleMusic?.());
   root.querySelector('[data-review]')?.addEventListener('click', onReview);
   root.querySelector('[data-new]')?.addEventListener('click', onNewExam);
   root.querySelector('[data-notebook]')?.addEventListener('click', onNotebook);

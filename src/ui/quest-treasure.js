@@ -1,6 +1,7 @@
 import { treasureTierIcon } from '../app/treasure-rewards.js';
 import { treasureCaveSceneSvg } from './quest-region-art.js';
 import { unifiedLangButtonHtml } from './lang-button.js';
+import { musicToggleButtonHtml } from './music-toggle.js';
 
 /**
  * @param {HTMLElement} root
@@ -10,7 +11,9 @@ import { unifiedLangButtonHtml } from './lang-button.js';
  * @param {boolean} opts.newBest
  * @param {(key: string) => string} opts.t
  * @param {'vi' | 'en'} [opts.contentLang]
+ * @param {boolean} [opts.musicEnabled]
  * @param {() => void} [opts.onToggleLang]
+ * @param {() => void} [opts.onToggleMusic]
  * @param {() => void} opts.onReview
  * @param {() => void} opts.onNotebook
  * @param {() => void} opts.onNewQuest
@@ -22,7 +25,9 @@ export function renderQuestTreasure(root, {
   newBest,
   t,
   contentLang,
+  musicEnabled = true,
   onToggleLang,
+  onToggleMusic,
   onReview,
   onNotebook,
   onNewQuest,
@@ -31,12 +36,14 @@ export function renderQuestTreasure(root, {
   const icon = treasureTierIcon(reward.tier);
   const tierKey = `treasureTier_${reward.tier}`;
   const langBtn = onToggleLang ? unifiedLangButtonHtml(contentLang, 'btn-treasure-lang') : '';
+  const musicBtn = onToggleMusic ? musicToggleButtonHtml(musicEnabled, t, 'btn-treasure-music') : '';
+  const headerTools = [musicBtn, langBtn].filter(Boolean).join('');
 
   root.innerHTML = `
     <div class="panel treasure-panel">
       <div class="treasure-header">
         <h2 class="screen-title">${t('treasureTitle')}</h2>
-        ${langBtn}
+        ${headerTools ? `<div class="screen-header-tools">${headerTools}</div>` : ''}
       </div>
       ${result.timedOut ? `<p class="warn">${t('timedOut')}</p>` : ''}
       <div class="treasure-cave-scene">${treasureCaveSceneSvg()}</div>
@@ -63,6 +70,7 @@ export function renderQuestTreasure(root, {
     </div>`;
 
   root.querySelector('#btn-treasure-lang')?.addEventListener('click', () => onToggleLang?.());
+  root.querySelector('#btn-treasure-music')?.addEventListener('click', () => onToggleMusic?.());
   root.querySelector('[data-review]')?.addEventListener('click', onReview);
   root.querySelector('[data-new]')?.addEventListener('click', onNewQuest);
   root.querySelector('[data-notebook]')?.addEventListener('click', onNotebook);

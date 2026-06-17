@@ -90,5 +90,7 @@
   "switchExamEn": "Đề tiếng Anh",
   "switchExamVi": "Đề tiếng Việt",
   "incorrectCount": "câu sai",
-  "notebookCount": "câu hỏi"
+  "notebookCount": "câu hỏi",
+  "musicOn": "Bật nhạc nền",
+  "musicOff": "Tắt nhạc nền"
 }

@@ -1,5 +1,5 @@
 import { createPlatform } from '../platform/index.js';
-import { initAudio, unlockAudio, pauseAudio, resumeAudio, playBellSound } from './audio.js';
+import { initAudio, unlockAudio, pauseAudio, resumeAudio, playBellSound, playBgm, stopBgm, resetBgmUserPreference, setBgmUserEnabled, isBgmUserEnabled } from './audio.js';
 import { loadBank, buildExam } from './app/exam-engine.js';
 import { scoreExam } from './app/scoring.js';
 import {
@@ -137,6 +137,8 @@ function refreshCurrentScreen() {
           exam: currentExam,
           contentLang,
           showSolutions,
+          musicEnabled: isBgmUserEnabled(),
+          onToggleMusic: handleToggleMusic,
           onReview: showSolutions ? null : () => showResultReview(lastResult),
           onNotebook: () => showNotebook(),
           onNewExam: () => beginNewExam(),
@@ -213,11 +215,25 @@ async function boot() {
   showMenu();
 }
 
+function handleToggleMusic() {
+  setBgmUserEnabled(!isBgmUserEnabled());
+  refreshCurrentScreen();
+}
+
+function syncHubBgm() {
+  const session = loadQuestSession();
+  if (session?.envelopeOpened && !session?.playStarted) {
+    unlockAudio();
+    playBgm('hub');
+  }
+}
+
 function showMenu() {
   screen = 'menu';
   lastSessionComplete = false;
   lastRunEndState = null;
   platform.gameplayStop?.();
+  stopBgm();
   const stats = loadStats(platform);
   const session = loadQuestSession();
   renderMenu(root, {
@@ -239,6 +255,7 @@ function showMenu() {
     t,
     tx,
   });
+  syncHubBgm();
 }
 
 function openQuestEnvelope() {
@@ -310,6 +327,7 @@ function departToBriefing() {
 }
 
 function showQuestBriefing() {
+  syncHubBgm();
   renderQuestBriefing(root, {
     questions: currentExam.questions,
     t,
@@ -355,6 +373,7 @@ function resumeQuest() {
 }
 
 function beginQuestPlay() {
+  stopBgm();
   screen = 'exam';
   platform.gameplayStart?.();
   const prev = loadQuestSession();
@@ -368,6 +387,7 @@ function beginQuestPlay() {
 
 function startExam(mode) {
   if (!bank) return;
+  stopBgm();
   questMode = false;
   clearQuestSession();
   resetExamIndex();
@@ -523,7 +543,9 @@ function showQuestTreasureScreen() {
     newBest: lastNewBest,
     t,
     contentLang,
+    musicEnabled: isBgmUserEnabled(),
     onToggleLang: handleToggleLang,
+    onToggleMusic: handleToggleMusic,
     onReview: () => showResultReview(lastResult),
     onNotebook: () => showNotebook(),
     onNewQuest: () => beginNewQuestAfterAd(),
@@ -569,6 +591,10 @@ function submitExam(timedOut) {
   lastSessionComplete = true;
   lastRunEndState = 'complete';
 
+  unlockAudio();
+  resetBgmUserPreference();
+  playBgm('result');
+
   if (questMode) {
     screen = 'treasure';
     renderQuestTreasure(root, {
@@ -577,7 +603,9 @@ function submitExam(timedOut) {
       newBest,
       t,
       contentLang,
+      musicEnabled: isBgmUserEnabled(),
       onToggleLang: handleToggleLang,
+      onToggleMusic: handleToggleMusic,
       onReview: () => showResultReview(result),
       onNotebook: () => showNotebook(),
       onNewQuest: () => beginNewQuestAfterAd(),
@@ -590,6 +618,8 @@ function submitExam(timedOut) {
       result,
       exam: currentExam,
       contentLang,
+      musicEnabled: isBgmUserEnabled(),
+      onToggleMusic: handleToggleMusic,
       onReview: () => showResultReview(result),
       onNotebook: () => showNotebook(),
       onNewExam: () => beginNewExam(),
@@ -607,6 +637,8 @@ function showResultReview(result) {
     exam: currentExam,
     contentLang,
     showSolutions: true,
+    musicEnabled: isBgmUserEnabled(),
+    onToggleMusic: handleToggleMusic,
     onReview: null,
     onNotebook: () => showNotebook(),
     onNewExam: () => beginNewExam(),
@@ -637,6 +669,7 @@ async function beginNewExam() {
 }
 
 function showNotebook() {
+  stopBgm();
   screen = 'notebook';
   const ids = loadMistakeNotebook(platform);
   const questions = bank?.questions.filter((q) => ids.includes(q.id)) || [];
@@ -675,8 +708,8 @@ function onPortalResume() {
   portalPaused = false;
   if (screen === 'exam') {
     platform.gameplayStart?.();
-    resumeAudio();
   }
+  resumeAudio();
 }
 
 if (btnLocale) {

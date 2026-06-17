@@ -90,5 +90,7 @@
   "switchExamEn": "English exam",
   "switchExamVi": "Vietnamese exam",
   "incorrectCount": "incorrect",
-  "notebookCount": "question(s)"
+  "notebookCount": "question(s)",
+  "musicOn": "Turn music on",
+  "musicOff": "Turn music off"
 }
